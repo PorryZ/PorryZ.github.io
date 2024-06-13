@@ -8,7 +8,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-            color: #fff;
+            color: #333;
             margin: 0;
             padding: 0;
             animation: gradient 10s ease infinite;
@@ -47,14 +47,12 @@
             animation: fadeInDown 2s;
             font-size: 3em;
             color: #ff6f61;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .profile p {
             animation: fadeInUp 2s;
             font-size: 1.5em;
-            color: #f6d365;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            color: #333;
         }
 
         .interests h2 {
@@ -62,7 +60,6 @@
             animation: fadeInUp 2s;
             font-size: 2.5em;
             color: #ff6f61;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .valorant-highlights {
@@ -122,9 +119,8 @@
 
         .highlight-title {
             font-size: 1.8em;
-            color: #ffd700;
+            color: #333;
             margin-bottom: 1em;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
         }
 
         footer {
@@ -145,37 +141,20 @@
         footer a:hover {
             color: #fff;
         }
-
-        .rainbow-text {
-            background: linear-gradient(to right, #ff6f61, #ffd700, #f6d365, #84fab0, #8fd3f4);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: rainbow 5s ease infinite;
-            background-size: 200% 200%;
-        }
-
-        @keyframes rainbow {
-            0%, 100% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1 class="rainbow-text">ZZH的个人网页</h1>
+        <h1>ZZH的个人网页</h1>
     </header>
     <div class="container">
         <section class="profile">
-            <h1 class="rainbow-text">ZZH</h1>
+            <h1>ZZH</h1>
             <p>职业：校长</p>
             <p>兴趣爱好：打瓦</p>
         </section>
         <section class="interests">
-            <h2 class="rainbow-text">无畏契约精彩时刻</h2>
+            <h2>无畏契约精彩时刻</h2>
         </section>
         <section class="valorant-highlights">
             <div class="highlight-video">
