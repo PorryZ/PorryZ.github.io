@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泰拉瑞亚 - ZZH的个人网页</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1f4037 0%, #99f2c8 100%);
+            color: #2b2b2b;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.75);
+            color: #fff;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            width: min(1100px, 92%);
+            margin: 0 auto;
+            padding: 2em 0 3em;
+        }
+
+        .intro {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 1.5em;
+            border-radius: 16px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .intro h2 {
+            margin-top: 0;
+            color: #1f4037;
+        }
+
+        .section {
+            margin-top: 2.5em;
+        }
+
+        .section h3 {
+            color: #1f4037;
+            margin-bottom: 0.8em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        th,
+        td {
+            padding: 0.9em 1em;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+            line-height: 1.6;
+        }
+
+        th {
+            background: #1f4037;
+            color: #fff;
+            text-align: left;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f4fbf7;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 1.6em;
+            padding: 0.6em 1.4em;
+            background: #1f4037;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 24px;
+            transition: background 0.3s;
+        }
+
+        .back-link:hover {
+            background: #163026;
+        }
+
+        footer {
+            text-align: center;
+            color: #fff;
+            padding: 1.5em 0;
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>泰拉瑞亚</h1>
+        <p>Boss 召唤顺序与 NPC 资料整理</p>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>攻略整理</h2>
+            <p>把你整理的表格信息整理为网页，方便随时查看 Boss 召唤方式与 NPC 出现条件。</p>
+        </section>
+
+        <section class="section">
+            <h3>Boss 顺序与召唤方式</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 18%;">Boss 顺序</th>
+                        <th>召唤方式</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>史莱姆王</td>
+                        <td>
+                            ① 持有 20 个凝胶和 1 金/铂金与 1 红宝石制作的皇冠，在恶魔祭坛/血腥祭坛处制作召唤物。<br>
+                            ② 地图中有血量达到 140 且防御达到 8 的玩家时，每天会有概率出现史莱姆雨事件，首次事件结束前击杀 150 只史莱姆会出现史莱姆王，再次触发事件则只需击杀 75 史莱姆；专家模式下玩家达到属性条件前也会有极小概率发生。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>克苏鲁之眼</td>
+                        <td>
+                            ① 满足三个条件：玩家血量达到 200、防御达到 10；从未在此世界击杀过它；世界中存在 3 个城镇 NPC，则傍晚会有 1/3 的概率出现。<br>
+                            ② 在恶魔祭坛处使用 6 个晶状体制作召唤物，召唤物也可在地下宝箱中获得，夜晚才能使用。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>哥布林入侵</td>
+                        <td>
+                            ① 地图的最左边三分之一和最右边三分之一会生成哥布林侦察兵，击杀掉落破布，10 个破布和 5 个木头可在织布机处合成哥布林战旗，随时可以召唤哥布林入侵。<br>
+                            ② 地图有玩家血量在 200 及以上，且已破坏过一个暗影之球或恶魔之心时，每天会有 1/3 的概率出现哥布林入侵。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>克苏鲁之脑 / 世界吞噬者</td>
+                        <td>
+                            ① 在血腥之地/腐化之地使用锤子敲碎三颗暗影之球或恶魔之心，Boss 即刻出现。因为此召唤方便玩家身处地下，推荐使用炸弹或净化粉破坏方块，搭建战斗场地或提前打好通往地面的“竖井”，将 Boss 引向地面击杀。<br>
+                            ② 持有 15 个腐肉/脊椎和腐蚀蘑菇制作的 30 包毒粉在恶魔祭坛/血腥祭坛处制作 Boss 召唤物，推荐在地面召唤，击杀会更轻松。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>蜂后</td>
+                        <td>
+                            ① 在丛林中耐心寻找蜂巢，每个蜂巢中会存在一个蜂王蜡，破坏后 Boss 出现。<br>
+                            ② 持有 5 个蜂巢（破坏蜂巢所得）、1 个毒刺、5 个蜂蜜（空瓶在液态蜂蜜附近合成）可合成蜂后召唤物，只能在丛林使用，推荐在地表召唤 Boss。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>骷髅王</td>
+                        <td>
+                            ① 夜晚在地牢门口与老人对话，点击“诅咒”即可召唤。击杀后地牢守卫消失，可进入地牢。若想重复击杀，请装备在地牢杀怪或箱子中获得的裁缝娃娃，在夜晚杀死老人后会召唤骷髅王。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>旧日军团</td>
+                        <td>
+                            ① 击杀克苏鲁之脑/世界吞噬者后，全地图随机生成酒保 NPC。购买埃特尼亚水晶座与埃特尼亚水晶，将水晶座放在空旷平坦的地方，在水晶座放入水晶即可召唤。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>血肉之墙</td>
+                        <td>
+                            ① 在地狱边缘持有向导巫毒娃娃并将其丢入岩浆中即可召唤。
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h3>NPC 资料</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 12%;">NPC</th>
+                        <th style="width: 26%;">描述</th>
+                        <th style="width: 28%;">生成需求</th>
+                        <th style="width: 17%;">自卫武器</th>
+                        <th>死亡掉落</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>向导</td>
+                        <td>提供提示和关于如何得到其他 NPC 的大致指引；提供合成展示格的物品的所有制作配方。</td>
+                        <td>创建新世界时总是已经存在。Celebrationmk10 世界的起始 NPC 之一，初始名为“Andrew”。</td>
+                        <td>木弓（用木箭）<br>困难模式：烈焰箭</td>
+                        <td>绿帽<br>100%；仅当名叫 Andrew 时</td>
+                    </tr>
+                    <tr>
+                        <td>商人</td>
+                        <td>出售基本的工具和供给。</td>
+                        <td>所有玩家物品栏中加起来有超过 50 铜。新建 Not the bees 世界时会取代向导作为起始 NPC。</td>
+                        <td>投刀</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>护士</td>
+                        <td>治疗玩家及取消减益来换取钱币。</td>
+                        <td>有玩家拥有超过 100 的生命且商人入住。</td>
+                        <td>注射器（远程攻击，对敌怪造成中毒；也能以 NPC 为目标并治疗他们）</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>爆破专家</td>
+                        <td>出售爆炸物。</td>
+                        <td>玩家的物品栏中有爆炸物且商人入住。新建 For the worthy 世界时会取代向导作为起始 NPC。</td>
+                        <td>手榴弹</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>染料商</td>
+                        <td>出售染缸制作染料。用稀有染料来交换奇异植物。</td>
+                        <td>玩家在物品栏中有染料物品或任何用于制作染料的物品，此外还有一些其他条件。</td>
+                        <td>异域弯刀</td>
+                        <td>异域弯刀<br>1/8（12.5%）</td>
+                    </tr>
+                    <tr>
+                        <td>渔夫</td>
+                        <td>给出钓鱼任务并在玩家完成后给出奖励。</td>
+                        <td>在海洋生物群系中找到他并与其交谈（在 Don’t dig up 和 Get fixed boi 世界中则是在地下森林中）。</td>
+                        <td>寒霜飞鱼</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>动物学家</td>
+                        <td>出售时装物品、坐骑、宠物、和小动物主题物品。</td>
+                        <td>怪物图鉴至少已经填写了 10%（54 个条目）。</td>
+                        <td>爪（近战攻击）</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>树妖</td>
+                        <td>出售自然/腐化/猩红物品，并能报告世界中腐化/猩红和神圣的百分比。</td>
+                        <td>克苏鲁之眼、世界吞噬者/克苏鲁之脑、或骷髅王已被击败。</td>
+                        <td>树妖祝福（范围效果，对玩家提供树妖祝福，对敌怪提供树妖祝祸）</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>油漆工</td>
+                        <td>出售油漆、绘画作品、和绘画作品。</td>
+                        <td>世界中有另外 8 个城镇 NPC。</td>
+                        <td>彩弹枪</td>
+                        <td>彩弹枪<br>1/10（10%）<br>Jim 的帽子<br>100%；仅当名叫 Jim 时</td>
+                    </tr>
+                    <tr>
+                        <td>高尔夫球手</td>
+                        <td>出售高尔夫球杆、高尔夫球和其他高尔夫物品。</td>
+                        <td>在地下沙漠中找到他并与其交谈。</td>
+                        <td>高尔夫球（远程攻击）</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>军火商</td>
+                        <td>出售枪、子弹、和其他弹药。</td>
+                        <td>有玩家的物品栏中有子弹或发射子弹的枪。</td>
+                        <td>燧发枪 / 迷你鲨</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>酒馆老板</td>
+                        <td>出售能帮助与撒旦军队战斗的召唤物品，其中绝大部分只能用护卫者勋章购买。</td>
+                        <td>击败了世界吞噬者或克苏鲁之脑后找到他并与其交谈。</td>
+                        <td>麦芽酒（远程范围攻击）</td>
+                        <td>麦芽酒投掷器<br>1/8（12.5%）</td>
+                    </tr>
+                    <tr>
+                        <td>发型师</td>
+                        <td>能改变玩家的发型并出售染发剂。</td>
+                        <td>在蜘蛛巢中找到她并与其交谈。</td>
+                        <td>时尚剪刀</td>
+                        <td>时尚剪刀<br>1/8（12.5%）</td>
+                    </tr>
+                    <tr>
+                        <td>哥布林工匠</td>
+                        <td>出售一些道具并能重铸物品。</td>
+                        <td>击败哥布林入侵后在洞穴层找到他并与之交谈。</td>
+                        <td>尖球</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>巫医</td>
+                        <td>出售吹箭筒、灌注站、召唤装备、喷泉和叶之翼。</td>
+                        <td>蜂王已被击败。</td>
+                        <td>吹箭筒（用毒镖，造成中毒）</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>服装商</td>
+                        <td>出售一些时装物品，包括便装套装。</td>
+                        <td>骷髅王已被击败。</td>
+                        <td>暗影烛台（远程攻击，造成暗影烛焰）</td>
+                        <td>红帽<br>100%</td>
+                    </tr>
+                    <tr>
+                        <td>机械师</td>
+                        <td>出售扳手、电线、和其他机械相关物品。</td>
+                        <td>在地牢中找到她并与其交谈。</td>
+                        <td>机械师扳手（远程范围攻击）</td>
+                        <td>战斗扳手<br>1/8（12.5%）</td>
+                    </tr>
+                    <tr>
+                        <td>派对女孩</td>
+                        <td>出售创造多彩视觉效果的小玩具物品。</td>
+                        <td>世界中已经有 14 个其他城镇 NPC 后有 1/40 几率生成。新建 Drunk world 时会取代向导作为起始 NPC。Celebrationmk10 和 Get fixed boi 世界的起始 NPC 之一，初始名为“Amanda”。</td>
+                        <td>快乐手榴弹</td>
+                        <td>快乐手榴弹<br>1/4（25%）；一次会掉落 30–60 个</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <a class="back-link" href="index.html">返回首页</a>
+    </main>
+
+    <footer>
+        <p>© 2024 ZZH. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
