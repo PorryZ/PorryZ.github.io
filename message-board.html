@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板 | ZZH攻略站</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            animation: gradient 10s ease infinite;
+            background-size: 400% 400%;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            width: min(900px, 90%);
+            margin: 0 auto;
+            padding: 2em 0 3em;
+            text-align: center;
+        }
+
+        .intro {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 1.5em;
+            border-radius: 16px;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+            margin-bottom: 2em;
+        }
+
+        .intro h1 {
+            margin-top: 0;
+            color: #ff6f61;
+            font-size: 2.6em;
+        }
+
+        .intro p {
+            margin: 0.6em 0;
+            font-size: 1.1em;
+        }
+
+        .nav-link {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.6em 1.4em;
+            background: #ff6f61;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background 0.3s;
+        }
+
+        .nav-link:hover {
+            background: #ff3b30;
+        }
+
+        .giscus-wrapper {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1.5em;
+            border-radius: 16px;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            margin-top: 2em;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>留言板</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <h1>欢迎留言</h1>
+            <p>这里是 ZZH 攻略站的交流角落，欢迎分享建议、纠错或想看的新内容。</p>
+            <p>留言会同步到 GitHub Discussions，方便持续跟踪和回复。</p>
+            <a class="nav-link" href="index.html">返回主页</a>
+        </section>
+        <section class="giscus-wrapper">
+            <!--
+                使用前请在 https://giscus.app 生成以下参数：
+                1. data-repo-id
+                2. data-category-id
+                并替换下面的 PLACEHOLDER 值。
+            -->
+            <script src="https://giscus.app/client.js"
+                data-repo="PorryZ/PorryZ.github.io"
+                data-repo-id="PLACEHOLDER_REPO_ID"
+                data-category="Announcements"
+                data-category-id="PLACEHOLDER_CATEGORY_ID"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="bottom"
+                data-theme="light"
+                data-lang="zh-CN"
+                crossorigin="anonymous"
+                async>
+            </script>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 ZZH. All rights reserved. | <a href="mailto:499023185@qq.com">Contact</a></p>
+    </footer>
+</body>
+
+</html>
