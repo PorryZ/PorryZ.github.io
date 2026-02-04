@@ -4,73 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>泰拉瑞亚 - ZZH的个人网页</title>
+    <title>苏丹的游戏攻略</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1f4037 0%, #99f2c8 100%);
+            background: linear-gradient(135deg, #1c1a2d 0%, #41346b 45%, #9f7aea 100%);
             color: #2b2b2b;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: rgba(0, 0, 0, 0.75);
+            background-color: rgba(12, 8, 22, 0.85);
             color: #fff;
-            padding: 1.5em 0;
+            padding: 1.6em 0;
             text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
 
         .container {
             width: min(1100px, 92%);
             margin: 0 auto;
-            padding: 2em 0 3em;
+            padding: 2.5em 0 3em;
         }
 
         .intro {
-            background: rgba(255, 255, 255, 0.85);
-            padding: 1.5em;
-            border-radius: 16px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1.6em;
+            border-radius: 18px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .intro h2 {
             margin-top: 0;
-            color: #1f4037;
-        }
-
-        .section {
-            margin-top: 2.5em;
-        }
-
-        .section h3 {
-            color: #1f4037;
-            margin-bottom: 0.8em;
+            color: #2d224c;
         }
 
         .tab-buttons {
             display: flex;
-            gap: 1em;
             flex-wrap: wrap;
-            margin: 1.5em 0;
+            gap: 1em;
+            margin: 1.8em 0 1.2em;
         }
 
         .tab-button {
             border: none;
-            background: rgba(31, 64, 55, 0.12);
-            color: #1f4037;
-            padding: 0.65em 1.6em;
+            background: rgba(255, 255, 255, 0.22);
+            color: #fff;
+            padding: 0.7em 1.7em;
             border-radius: 999px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s ease;
+            backdrop-filter: blur(6px);
         }
 
         .tab-button.active {
-            background: #1f4037;
-            color: #fff;
-            box-shadow: 0 6px 12px rgba(31, 64, 55, 0.25);
+            background: #f6c453;
+            color: #2d224c;
+            box-shadow: 0 6px 12px rgba(246, 196, 83, 0.35);
         }
 
         .table-panel {
@@ -87,40 +79,41 @@
             background: #fff;
             border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.25);
         }
 
         th,
         td {
-            padding: 0.9em 1em;
-            border-bottom: 1px solid #e0e0e0;
+            padding: 0.85em 1em;
+            border-bottom: 1px solid #ece6f4;
             vertical-align: top;
             line-height: 1.6;
         }
 
         th {
-            background: #1f4037;
+            background: #2d224c;
             color: #fff;
             text-align: left;
         }
 
         tbody tr:nth-child(even) {
-            background: #f4fbf7;
+            background: #f7f2ff;
         }
 
         .back-link {
             display: inline-block;
-            margin-top: 1.6em;
-            padding: 0.6em 1.4em;
-            background: #1f4037;
-            color: #fff;
+            margin-top: 1.8em;
+            padding: 0.6em 1.5em;
+            background: #f6c453;
+            color: #2d224c;
             text-decoration: none;
             border-radius: 24px;
-            transition: background 0.3s;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
         .back-link:hover {
-            background: #163026;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2);
         }
 
         footer {
@@ -134,27 +127,30 @@
 
 <body>
     <header>
-        <h1>泰拉瑞亚</h1>
-        <p>Boss 召唤顺序与 NPC 资料整理</p>
+        <h1>苏丹的游戏</h1>
+        <p>人物、事件、道具攻略总览</p>
     </header>
 
     <main class="container">
         <section class="intro">
-            <h2>攻略整理</h2>
-            <p>把你整理的表格信息整理为网页，方便随时查看 Boss 召唤方式与 NPC 出现条件。</p>
+            <h2>攻略总览</h2>
+            <p>把人物关系、关键事件以及道具信息集中整理，方便规划路线与触发条件。</p>
         </section>
 
         <section class="section">
-            <h3>攻略表格</h3>
-            <div class="tab-buttons" role="tablist" aria-label="泰拉瑞亚表格切换">
-                <button class="tab-button active" type="button" data-target="boss-panel">Boss 顺序与召唤方式</button>
-                <button class="tab-button" type="button" data-target="npc-panel">NPC 资料</button>
+            <div class="tab-buttons" role="tablist" aria-label="苏丹的游戏表格切换">
+                <button class="tab-button active" type="button" data-target="people-panel">人物</button>
+                <button class="tab-button" type="button" data-target="events-panel">事件</button>
+                <button class="tab-button" type="button" data-target="items-panel">道具</button>
             </div>
-            <div class="table-panel active" id="boss-panel">
-                <div id="boss-table"></div>
+            <div class="table-panel active" id="people-panel">
+                <div id="people-table"></div>
             </div>
-            <div class="table-panel" id="npc-panel">
-                <div id="npc-table"></div>
+            <div class="table-panel" id="events-panel">
+                <div id="events-table"></div>
+            </div>
+            <div class="table-panel" id="items-panel">
+                <div id="items-table"></div>
             </div>
         </section>
 
@@ -164,6 +160,7 @@
     <footer>
         <p>© 2024 ZZH. All rights reserved.</p>
     </footer>
+
     <script>
         const parseCsv = (text) => {
             const rows = [];
@@ -230,7 +227,7 @@
                 rows[0].forEach((_, index) => {
                     const td = document.createElement('td');
                     const value = row[index] || '';
-                    td.innerHTML = value.replace(/\\n/g, '<br>');
+                    td.innerHTML = value.replace(/\n/g, '<br>');
                     tr.appendChild(td);
                 });
                 tbody.appendChild(tr);
@@ -247,8 +244,9 @@
             renderTable(containerId, rows);
         };
 
-        loadTable('data/terraria-boss.csv', 'boss-table');
-        loadTable('data/terraria-npc.csv', 'npc-table');
+        loadTable('data/sultan-people.csv', 'people-table');
+        loadTable('data/sultan-events.csv', 'events-table');
+        loadTable('data/sultan-items.csv', 'items-table');
 
         const tabButtons = document.querySelectorAll('.tab-button');
         const panels = document.querySelectorAll('.table-panel');
