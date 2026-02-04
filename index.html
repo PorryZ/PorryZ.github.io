@@ -65,49 +65,38 @@
             color: #ff6f61;
         }
 
-        .subpages {
+        .valorant-highlights {
             margin-top: 2em;
-            display: grid;
-            gap: 1.5em;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         }
 
-        .subpage-card {
-            background: rgba(255, 255, 255, 0.8);
-            padding: 1.5em;
-            border-radius: 12px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        .highlight-video {
+            margin: 2em 0;
+            display: inline-block;
+            animation: fadeIn 2s;
+        }
+
+        video {
+            width: 80%;
+            max-width: 600px;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
-        .subpage-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+        video:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
         }
 
-        .subpage-card h3 {
-            margin-top: 0;
-            color: #333;
-            font-size: 1.6em;
-        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
 
-        .subpage-card p {
-            color: #444;
-        }
-
-        .subpage-card a {
-            display: inline-block;
-            margin-top: 1em;
-            padding: 0.6em 1.4em;
-            background: #ff6f61;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 20px;
-            transition: background 0.3s;
-        }
-
-        .subpage-card a:hover {
-            background: #ff3b30;
+            to {
+                opacity: 1;
+            }
         }
 
         @keyframes fadeInUp {
@@ -132,6 +121,12 @@
                 transform: translateY(0);
                 opacity: 1;
             }
+        }
+
+        .highlight-title {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 1em;
         }
 
         footer {
@@ -166,19 +161,39 @@
             <p>兴趣爱好：打瓦</p>
         </section>
         <section class="interests">
-            <h2>精彩内容分区</h2>
+            <h2>无畏契约精彩时刻</h2>
         </section>
-        <section class="subpages">
-            <article class="subpage-card">
-                <h3>智能车</h3>
-                <p>收录精彩时刻 1 与精彩时刻 2。</p>
-                <a href="smart-car.html">进入页面</a>
-            </article>
-            <article class="subpage-card">
-                <h3>无畏契约</h3>
-                <p>收录至暗时刻 1 与精彩时刻 3。</p>
-                <a href="valorant.html">进入页面</a>
-            </article>
+        <section class="valorant-highlights">
+            <div class="highlight-video">
+                <h3 class="highlight-title">精彩时刻 1</h3>
+                <video controls>
+                    <source src="highlight1.mp4" type="video/mp4">
+                    您的浏览器不支持视频标签。
+                </video>
+            </div>
+            <div class="highlight-video">
+                <h3 class="highlight-title">精彩时刻 2</h3>
+                <video controls>
+                    <source src="highlight2.mp4" type="video/mp4">
+                    您的浏览器不支持视频标签。
+                </video>
+            </div>
+            <div class="highlight-video">
+                <h3 class="highlight-title">至暗时刻 1</h3>
+                <video controls>
+                    <source src="highlight3.mp4" type="video/mp4">
+                    您的浏览器不支持视频标签。
+                </video>
+                <p>本来无敌了，空中伦没有巴比花园给了个消散略显难受。</p>
+            </div>
+            <div class="highlight-video">
+                <h3 class="highlight-title">精彩时刻 3</h3>
+                <video controls>
+                    <source src="highlight4.mp4" type="video/mp4">
+                    您的浏览器不支持视频标签。
+                </video>
+                <p>无间配合，三个连续的Free Kills迫使对面只能慢打。</p>
+            </div>
         </section>
     </div>
     <footer>
