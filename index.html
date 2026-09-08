@@ -4,202 +4,704 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZZH信息分享站</title>
+    <title>ZZH Steam 首页</title>
     <style>
+        :root {
+            --bg: #f4f7f4;
+            --ink: #151817;
+            --muted: #65706b;
+            --panel: rgba(255, 255, 255, 0.86);
+            --line: rgba(21, 24, 23, 0.12);
+            --steam: #17384f;
+            --teal: #18a58b;
+            --lime: #b5d640;
+            --coral: #f26f5e;
+            --shadow: 0 18px 48px rgba(31, 44, 39, 0.14);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-            color: #333;
+            min-height: 100vh;
+            margin: 0;
+            color: var(--ink);
+            font-family: Inter, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background:
+                radial-gradient(circle at 18% 8%, rgba(181, 214, 64, 0.22), transparent 28%),
+                linear-gradient(135deg, #f7faf7 0%, #e7f0ed 48%, #f8efe9 100%);
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .site-shell {
+            width: min(1180px, calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            min-height: 74px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 800;
+            letter-spacing: 0;
+        }
+
+        .brand-mark {
+            display: grid;
+            width: 36px;
+            height: 36px;
+            place-items: center;
+            border-radius: 8px;
+            color: #fff;
+            background: linear-gradient(145deg, var(--steam), var(--teal));
+            box-shadow: 0 10px 24px rgba(23, 56, 79, 0.24);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        .nav a,
+        .action {
+            min-height: 38px;
+            padding: 10px 14px;
+            border-radius: 8px;
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.94rem;
+            font-weight: 650;
+        }
+
+        .nav a:hover,
+        .action:hover {
+            color: var(--ink);
+            background: rgba(255, 255, 255, 0.72);
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: minmax(0, 1.1fr) minmax(330px, 0.9fr);
+            gap: 28px;
+            align-items: stretch;
+            padding: 36px 0 28px;
+        }
+
+        .steam-panel,
+        .library-panel,
+        .section-band {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--panel);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(16px);
+        }
+
+        .steam-panel {
+            position: relative;
+            overflow: hidden;
+            min-height: 520px;
+            padding: 34px;
+            color: #eef7f5;
+            background:
+                linear-gradient(145deg, rgba(23, 56, 79, 0.94), rgba(20, 91, 88, 0.88)),
+                url("https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .steam-panel::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, rgba(11, 25, 36, 0.92), rgba(11, 25, 36, 0.55));
+        }
+
+        .steam-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            min-height: 452px;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 32px;
+        }
+
+        .eyebrow {
+            margin: 0 0 14px;
+            color: #a7ded2;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            max-width: 720px;
+            margin: 0;
+            font-size: clamp(2.45rem, 6vw, 5.4rem);
+            line-height: 0.98;
+            letter-spacing: 0;
+        }
+
+        .hero-copy {
+            max-width: 620px;
+            margin: 20px 0 0;
+            color: rgba(238, 247, 245, 0.78);
+            font-size: 1.08rem;
+            line-height: 1.75;
+        }
+
+        .status-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 22px;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            min-height: 34px;
+            padding: 7px 12px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            border-radius: 8px;
+            color: rgba(238, 247, 245, 0.86);
+            background: rgba(255, 255, 255, 0.08);
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .hero-metrics {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .metric {
+            min-height: 104px;
+            padding: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .metric strong {
+            display: block;
+            font-size: clamp(1.65rem, 4vw, 2.65rem);
+            line-height: 1;
+        }
+
+        .metric span {
+            display: block;
+            margin-top: 8px;
+            color: rgba(238, 247, 245, 0.72);
+            font-size: 0.86rem;
+        }
+
+        .library-panel {
+            display: flex;
+            min-height: 520px;
+            flex-direction: column;
+            padding: 22px;
+        }
+
+        .panel-head {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 18px;
+        }
+
+        .panel-head h2,
+        .section-head h2 {
+            margin: 0;
+            font-size: 1.28rem;
+        }
+
+        .panel-head p,
+        .section-head p {
+            margin: 6px 0 0;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+        .profile-link {
+            flex: 0 0 auto;
+            min-height: 38px;
+            padding: 10px 14px;
+            border-radius: 8px;
+            color: #fff;
+            background: var(--steam);
+            font-weight: 750;
+            text-decoration: none;
+        }
+
+        .game-list {
+            display: grid;
+            gap: 12px;
             margin: 0;
             padding: 0;
-            animation: gradient 10s ease infinite;
-            background-size: 400% 400%;
+            list-style: none;
         }
 
-        @keyframes gradient {
-            0% {
-                background-position: 0% 50%;
-            }
-
-            50% {
-                background-position: 100% 50%;
-            }
-
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        header {
-            background-color: rgba(0, 0, 0, 0.7);
-            color: #fff;
-            padding: 1em 0;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 2em 0;
-            text-align: center;
-        }
-
-        .profile h1 {
-            margin: 0;
-            animation: fadeInDown 2s;
-            font-size: 3em;
-            color: #ff6f61;
-        }
-
-        .profile p {
-            animation: fadeInUp 2s;
-            font-size: 1.5em;
-            color: #333;
-        }
-
-        .interests h2 {
-            margin-top: 2em;
-            animation: fadeInUp 2s;
-            font-size: 2.5em;
-            color: #ff6f61;
-        }
-
-        .subpages {
-            margin-top: 2em;
+        .game-item {
             display: grid;
-            gap: 1.5em;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: 104px minmax(0, 1fr);
+            gap: 14px;
+            align-items: center;
+            min-height: 74px;
+            padding: 10px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.72);
         }
 
-        .subpage-card {
-            background: rgba(255, 255, 255, 0.8);
-            padding: 1.5em;
-            border-radius: 12px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-            transition: transform 0.3s, box-shadow 0.3s;
+        .game-cover {
+            width: 104px;
+            aspect-ratio: 16 / 7;
+            border-radius: 6px;
+            object-fit: cover;
+            background: linear-gradient(135deg, var(--steam), var(--teal));
         }
 
-        .subpage-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+        .game-name {
+            margin: 0;
+            overflow: hidden;
+            font-size: 1rem;
+            font-weight: 800;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
-        .subpage-card h3 {
-            margin-top: 0;
-            color: #333;
-            font-size: 1.6em;
+        .game-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 8px;
+            color: var(--muted);
+            font-size: 0.86rem;
+            font-weight: 650;
         }
 
-        .subpage-card p {
-            color: #444;
+        .sync-note {
+            margin-top: auto;
+            padding-top: 18px;
+            color: var(--muted);
+            font-size: 0.88rem;
+            line-height: 1.55;
         }
 
-        .subpage-card a {
-            display: inline-block;
-            margin-top: 1em;
-            padding: 0.6em 1.4em;
-            background: #ff6f61;
-            color: #fff;
+        .section-band {
+            margin: 12px 0 34px;
+            padding: 24px;
+        }
+
+        .section-head {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 18px;
+        }
+
+        .quick-grid {
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .quick-card {
+            display: flex;
+            min-height: 154px;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 16px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
             text-decoration: none;
-            border-radius: 20px;
-            transition: background 0.3s;
+            background: #fff;
+            transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
         }
 
-        .subpage-card a:hover {
-            background: #ff3b30;
+        .quick-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(24, 165, 139, 0.45);
+            box-shadow: 0 12px 30px rgba(31, 44, 39, 0.11);
         }
 
-        @keyframes fadeInUp {
-            from {
-                transform: translateY(20px);
-                opacity: 0;
-            }
-
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
+        .quick-card b {
+            font-size: 1.02rem;
         }
 
-        @keyframes fadeInDown {
-            from {
-                transform: translateY(-20px);
-                opacity: 0;
-            }
+        .quick-card span {
+            color: var(--muted);
+            font-size: 0.88rem;
+            line-height: 1.55;
+        }
 
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
+        .quick-card i {
+            width: 34px;
+            height: 4px;
+            border-radius: 999px;
+            background: var(--accent, var(--teal));
+        }
+
+        .media-strip {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 12px;
+            margin-bottom: 42px;
+        }
+
+        .clip {
+            position: relative;
+            overflow: hidden;
+            min-height: 260px;
+            border-radius: 8px;
+            background: #111;
+            box-shadow: var(--shadow);
+        }
+
+        .clip video {
+            width: 100%;
+            height: 100%;
+            min-height: 260px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .clip span {
+            position: absolute;
+            left: 14px;
+            bottom: 14px;
+            padding: 8px 10px;
+            border-radius: 8px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.58);
+            font-weight: 750;
         }
 
         footer {
-            background-color: rgba(0, 0, 0, 0.7);
-            color: #fff;
-            padding: 1em 0;
-            text-align: center;
-            margin-top: 2em;
-            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            padding: 24px 0 34px;
+            color: var(--muted);
+            border-top: 1px solid var(--line);
+            font-size: 0.92rem;
         }
 
-        footer a {
-            color: #ffd700;
-            text-decoration: none;
-            transition: color 0.3s;
+        @media (max-width: 920px) {
+            .hero,
+            .media-strip {
+                grid-template-columns: 1fr;
+            }
+
+            .quick-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .steam-panel,
+            .library-panel {
+                min-height: auto;
+            }
         }
 
-        footer a:hover {
-            color: #fff;
+        @media (max-width: 620px) {
+            .site-shell {
+                width: min(100% - 22px, 1180px);
+            }
+
+            .topbar {
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 14px 0;
+            }
+
+            .nav {
+                justify-content: flex-start;
+            }
+
+            .hero {
+                padding-top: 18px;
+            }
+
+            .steam-panel,
+            .library-panel,
+            .section-band {
+                padding: 18px;
+            }
+
+            .steam-content {
+                min-height: 420px;
+            }
+
+            .hero-metrics,
+            .quick-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .game-item {
+                grid-template-columns: 88px minmax(0, 1fr);
+            }
+
+            .game-cover {
+                width: 88px;
+            }
+
+            .section-head,
+            .panel-head {
+                align-items: flex-start;
+                flex-direction: column;
+            }
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>ZZH信息分享站</h1>
-    </header>
-    <div class="container">
-        <section class="profile">
-            <h1>ZZH</h1>
-            <p>身份：普通玩家，随手整理一些资料</p>
-            <p>兴趣爱好：记录游戏信息、分享小心得</p>
-            <p>这里是一个信息分享站，汇总常玩的游戏资料与个人笔记，仅供参考。</p>
-        </section>
-        <section class="interests">
-            <h2>精彩内容分区</h2>
-        </section>
-        <section class="subpages">
-            <article class="subpage-card">
-                <h3>智能车</h3>
-                <p>收录精彩时刻 1 与精彩时刻 2。</p>
-                <a href="smart-car.html">进入页面</a>
-            </article>
-            <article class="subpage-card">
-                <h3>无畏契约</h3>
-                <p>收录至暗时刻 1 与精彩时刻 3。</p>
-                <a href="valorant.html">进入页面</a>
-            </article>
-            <article class="subpage-card">
-                <h3>泰拉瑞亚</h3>
-                <p>整理 Boss 召唤顺序与 NPC 资料表。</p>
-                <a href="terraria.html">进入页面</a>
-            </article>
-            <article class="subpage-card">
-                <h3>苏丹的游戏</h3>
-                <p>人物、事件、道具三类攻略表格。</p>
-                <a href="sultan.html">进入页面</a>
-            </article>
-            <article class="subpage-card">
-                <h3>留言板</h3>
-                <p>欢迎留下你的建议与交流想法。</p>
-                <a href="message-board.html">进入页面</a>
-            </article>
-        </section>
+    <div class="site-shell">
+        <header class="topbar">
+            <a class="brand" href="index.html" aria-label="ZZH Steam 首页">
+                <span class="brand-mark">Z</span>
+                <span>ZZH Steam Hub</span>
+            </a>
+            <nav class="nav" aria-label="主导航">
+                <a href="terraria.html">泰拉瑞亚</a>
+                <a href="sultan.html">苏丹的游戏</a>
+                <a href="valorant.html">无畏契约</a>
+                <a href="message-board.html">留言板</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" aria-labelledby="steam-title">
+                <article class="steam-panel">
+                    <div class="steam-content">
+                        <div>
+                            <p class="eyebrow">Steam Sync</p>
+                            <h1 id="steam-title">ZZH 的 Steam 数据中心</h1>
+                            <p class="hero-copy" id="steam-summary">正在读取本地同步数据，主页会优先展示最近游玩、总时长与库存概览。</p>
+                            <div class="status-row">
+                                <span class="pill" id="persona">玩家档案同步中</span>
+                                <span class="pill" id="online-state">状态读取中</span>
+                                <span class="pill" id="last-updated">等待更新</span>
+                            </div>
+                        </div>
+
+                        <div class="hero-metrics" aria-label="Steam 数据概览">
+                            <div class="metric">
+                                <strong id="total-games">--</strong>
+                                <span>库存游戏</span>
+                            </div>
+                            <div class="metric">
+                                <strong id="total-hours">--</strong>
+                                <span>累计小时</span>
+                            </div>
+                            <div class="metric">
+                                <strong id="recent-hours">--</strong>
+                                <span>近两周小时</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <aside class="library-panel" aria-labelledby="recent-title">
+                    <div class="panel-head">
+                        <div>
+                            <h2 id="recent-title">最近游玩</h2>
+                            <p>按 Steam 同步数据排序。</p>
+                        </div>
+                        <a class="profile-link" id="steam-profile-link" href="https://steamcommunity.com/" target="_blank"
+                            rel="noreferrer">Steam</a>
+                    </div>
+                    <ul class="game-list" id="recent-games">
+                        <li class="game-item">
+                            <span class="game-cover" aria-hidden="true"></span>
+                            <div>
+                                <p class="game-name">等待 Steam 数据</p>
+                                <div class="game-meta"><span>运行同步脚本后展示真实库存</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="sync-note" id="sync-note">数据源：data/steam.json</p>
+                </aside>
+            </section>
+
+            <section class="section-band" aria-labelledby="guides-title">
+                <div class="section-head">
+                    <div>
+                        <h2 id="guides-title">攻略与记录</h2>
+                        <p>Steam 首页之后保留原有内容入口。</p>
+                    </div>
+                    <a class="action" href="message-board.html">去留言</a>
+                </div>
+                <div class="quick-grid">
+                    <a class="quick-card" href="terraria.html" style="--accent: #18a58b">
+                        <i></i>
+                        <b>泰拉瑞亚</b>
+                        <span>Boss 召唤顺序与 NPC 资料表。</span>
+                    </a>
+                    <a class="quick-card" href="sultan.html" style="--accent: #f26f5e">
+                        <i></i>
+                        <b>苏丹的游戏</b>
+                        <span>人物、事件、道具三类攻略。</span>
+                    </a>
+                    <a class="quick-card" href="valorant.html" style="--accent: #b5d640">
+                        <i></i>
+                        <b>无畏契约</b>
+                        <span>精彩时刻与复盘记录。</span>
+                    </a>
+                    <a class="quick-card" href="smart-car.html" style="--accent: #17384f">
+                        <i></i>
+                        <b>智能车</b>
+                        <span>视频片段与项目素材。</span>
+                    </a>
+                    <a class="quick-card" href="message-board.html" style="--accent: #7a5cff">
+                        <i></i>
+                        <b>留言板</b>
+                        <span>建议、纠错和想看的新内容。</span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="media-strip" aria-label="精彩视频">
+                <div class="clip">
+                    <video src="highlight3.mp4" preload="metadata" muted controls></video>
+                    <span>精选片段 01</span>
+                </div>
+                <div class="clip">
+                    <video src="highlight4.mp4" preload="metadata" muted controls></video>
+                    <span>精选片段 02</span>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 ZZH. All rights reserved. | <a href="mailto:499023185@qq.com">Contact</a></p>
+        </footer>
     </div>
-    <footer>
-        <p>© 2024 ZZH. All rights reserved. | <a href="mailto:499023185@qq.com">Contact</a></p>
-    </footer>
+
+    <script>
+        const els = {
+            persona: document.getElementById("persona"),
+            onlineState: document.getElementById("online-state"),
+            lastUpdated: document.getElementById("last-updated"),
+            totalGames: document.getElementById("total-games"),
+            totalHours: document.getElementById("total-hours"),
+            recentHours: document.getElementById("recent-hours"),
+            summary: document.getElementById("steam-summary"),
+            recentGames: document.getElementById("recent-games"),
+            profileLink: document.getElementById("steam-profile-link"),
+            syncNote: document.getElementById("sync-note")
+        };
+
+        const stateText = {
+            0: "离线",
+            1: "在线",
+            2: "忙碌",
+            3: "离开",
+            4: "打盹",
+            5: "想交易",
+            6: "想玩游戏"
+        };
+
+        function hours(minutes) {
+            return Number.isFinite(minutes) ? Math.round(minutes / 60) : 0;
+        }
+
+        function formatDate(value) {
+            if (!value) return "尚未同步";
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) return "尚未同步";
+            return new Intl.DateTimeFormat("zh-CN", {
+                month: "2-digit",
+                day: "2-digit",
+                hour: "2-digit",
+                minute: "2-digit"
+            }).format(date);
+        }
+
+        function escapeHtml(value) {
+            return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;"
+            }[char]));
+        }
+
+        function renderSteam(data) {
+            const games = Array.isArray(data.games) ? data.games : [];
+            const recent = Array.isArray(data.recentGames) && data.recentGames.length ? data.recentGames : games.slice(0, 5);
+            const totalMinutes = games.reduce((sum, game) => sum + (Number(game.playtimeForever) || 0), 0);
+            const recentMinutes = recent.reduce((sum, game) => sum + (Number(game.playtimeTwoWeeks) || 0), 0);
+
+            els.persona.textContent = data.personaName || "Steam 玩家";
+            els.onlineState.textContent = stateText[data.personaState] || data.status || "状态未知";
+            els.lastUpdated.textContent = `同步 ${formatDate(data.lastUpdated)}`;
+            els.totalGames.textContent = games.length || "--";
+            els.totalHours.textContent = totalMinutes ? `${hours(totalMinutes)}h` : "--";
+            els.recentHours.textContent = recentMinutes ? `${hours(recentMinutes)}h` : "--";
+            els.summary.textContent = data.summary || "Steam 库存、最近游玩和累计时长会在这里汇总。";
+            els.syncNote.textContent = data.steamId ? `SteamID64: ${data.steamId}` : "数据源：data/steam.json";
+
+            if (data.profileUrl) {
+                els.profileLink.href = data.profileUrl;
+            }
+
+            if (!recent.length) return;
+
+            els.recentGames.innerHTML = recent.slice(0, 6).map((game) => {
+                const appId = Number(game.appId);
+                const cover = game.headerImage || (appId ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${appId}/header.jpg` : "");
+                const forever = hours(Number(game.playtimeForever) || 0);
+                const twoWeeks = hours(Number(game.playtimeTwoWeeks) || 0);
+                const meta = [
+                    forever ? `累计 ${forever}h` : "暂无时长",
+                    twoWeeks ? `近两周 ${twoWeeks}h` : "",
+                    game.lastPlayed ? `上次 ${formatDate(game.lastPlayed)}` : ""
+                ].filter(Boolean).join("<span>/</span>");
+
+                return `
+                    <li class="game-item">
+                        ${cover ? `<img class="game-cover" src="${escapeHtml(cover)}" alt="${escapeHtml(game.name || "Steam 游戏")} 封面" loading="lazy">` : `<span class="game-cover" aria-hidden="true"></span>`}
+                        <div>
+                            <p class="game-name">${escapeHtml(game.name || "未命名游戏")}</p>
+                            <div class="game-meta">${meta}</div>
+                        </div>
+                    </li>
+                `;
+            }).join("");
+        }
+
+        fetch("data/steam.json", { cache: "no-store" })
+            .then((response) => {
+                if (!response.ok) throw new Error("Steam data not found");
+                return response.json();
+            })
+            .then(renderSteam)
+            .catch(() => {
+                els.persona.textContent = "Steam 数据待同步";
+                els.onlineState.textContent = "未连接";
+                els.lastUpdated.textContent = "尚未更新";
+            });
+    </script>
 </body>
 
 </html>
