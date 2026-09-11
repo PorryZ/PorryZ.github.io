@@ -1,11 +1,14 @@
 #!/usr/bin/env node
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { execFile } from "node:child_process";
 import { dirname, resolve } from "node:path";
+import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outputPath = resolve(root, "data/steam.json");
+const execFileAsync = promisify(execFile);
 
 async function loadDotEnv() {
   const envPath = resolve(root, ".env");
@@ -50,12 +53,37 @@ const endpoints = {
     `https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v1/?key=${apiKey}&steamid=${steamId}&count=10`
 };
 
+function redactUrl(url) {
+  return url.replace(/key=[^&]+/i, "key=[redacted]");
+}
+
 async function getJson(url) {
-  const response = await fetch(url);
-  if (!response.ok) {
-    throw new Error(`${response.status} ${response.statusText}: ${url}`);
+  let lastError;
+
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const { stdout } = await execFileAsync("curl", [
+        "--fail",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-time",
+        "30",
+        "--user-agent",
+        "PorryZ.github.io Steam sync",
+        url
+      ]);
+
+      return JSON.parse(stdout);
+    } catch (error) {
+      lastError = new Error(`Failed to fetch ${redactUrl(url)}: ${error.message}`);
+      if (attempt < 3) {
+        await new Promise((resolveRetry) => setTimeout(resolveRetry, attempt * 1000));
+      }
+    }
   }
-  return response.json();
+
+  throw lastError;
 }
 
 function headerImage(appId) {
