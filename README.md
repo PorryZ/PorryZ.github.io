@@ -46,11 +46,14 @@ python -m http.server 8000
 
 - 修改页面结构或文案：编辑对应的根目录 HTML。
 - 修改样式或交互：编辑 `assets/css/` 或 `assets/js/` 中的同名文件，首页使用 `home`。
+- 维护游戏手记：编辑 `data/games.json`，素材放在 `assets/images/games/`；新增与补充资料见 [游戏卡片维护说明](docs/game-cards.md)。组件为 `assets/js/game-cards.js` 与 `assets/css/game-cards.css`，主页接入为 `assets/js/game-journal.js`。
 - 更新攻略：编辑 `data/terraria/` 或 `data/sultan/` 的 UTF-8 CSV，保留表头与字段格式；含逗号或换行的单元格使用双引号包围。
 - 添加视频：放入 `assets/videos/` 对应主题目录，并在页面中更新视频路径；首页的精选视频也需要同步修改。
 - 新增页面：在根目录添加 HTML，将样式、脚本和素材放入对应目录，并在首页添加入口。
 
 资源路径以页面地址为基准，包括外部 JavaScript 中的 `fetch` 路径。当前所有页面都位于根目录，统一使用 `assets/...` 与 `data/...`。
+
+游戏卡片的独立开发预览位于 <http://localhost:8000/dev/game-cards.html>，其中测试图、文字和数字已明确标记，正式主页不会读取这些内容。数据行为检查：`node scripts/test-game-cards.cjs`。
 
 ## 同步 Steam 数据
 

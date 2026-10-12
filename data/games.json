@@ -1,0 +1,22 @@
+{
+  "games": [
+    {
+      "id": "steam-1687950",
+      "name": "Persona 5 Royal",
+      "steamAppId": 1687950,
+      "theme": "coral"
+    },
+    {
+      "id": "steam-105600",
+      "name": "Terraria",
+      "steamAppId": 105600,
+      "theme": "mint"
+    },
+    {
+      "id": "steam-2161700",
+      "name": "Persona 3 Reload",
+      "steamAppId": 2161700,
+      "theme": "blue"
+    }
+  ]
+}

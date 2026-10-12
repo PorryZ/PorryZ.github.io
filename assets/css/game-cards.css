@@ -1,0 +1,114 @@
+/* The archive shares the homepage palette; angular details stay inside cards. */
+.game-journal { margin: 12px 0 38px; }
+.game-journal[hidden], .game-viewer [hidden], .journal-card [hidden] { display: none; }
+.journal-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin: 0 0 22px; }
+.journal-kicker { margin: 0 0 10px; color: var(--muted); font-size: .72rem; letter-spacing: .2em; font-weight: 800; }
+.journal-head h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.2; letter-spacing: -.04em; }
+.journal-head h2 span { display: inline-block; margin-left: 14px; color: #147462; }
+.journal-copy { margin: 10px 0 0; color: var(--muted); font-size: .94rem; }
+.journal-index { display: flex; align-items: center; gap: 12px; margin: 0; }
+.journal-index strong { font-size: 2.6rem; font-weight: 850; line-height: 1; }
+.journal-index span { max-width: 8em; color: var(--muted); font-size: .75rem; line-height: 1.7; }
+.journal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; align-items: start; }
+.journal-card { --card-accent: #ff977e; --card-bg: #201f23; position: relative; isolation: isolate; min-width: 0; overflow: hidden; color: #f9faf7; background: var(--card-bg); border: 1px solid #ffffff24; border-radius: 8px 8px 24px 8px; box-shadow: 0 12px 28px #1c302418; transition: transform 220ms cubic-bezier(.2,.75,.3,1); }
+.theme-mint { --card-accent: #9bdfbd; --card-bg: #142c29; }
+.theme-blue { --card-accent: #a7cbff; --card-bg: #182739; }
+.theme-lime { --card-accent: #d5e979; --card-bg: #252b1c; }
+.theme-violet { --card-accent: #d1b7ff; --card-bg: #292234; }
+.journal-card::before { content: ""; position: absolute; z-index: -1; width: 148px; height: 82px; right: -26px; top: 18px; background: var(--card-accent); opacity: .09; transform: skew(-28deg); pointer-events: none; }
+.journal-card::after { content: ""; position: absolute; bottom: 0; right: 0; width: 48px; height: 38px; background: var(--card-accent); clip-path: polygon(100% 0, 100% 100%, 0 100%); pointer-events: none; }
+.journal-card-body { position: relative; min-width: 0; padding: 25px 26px 30px; }
+.journal-card-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 25px; }
+.journal-card-tag { position: relative; isolation: isolate; padding: 6px 12px; color: #18201d; font-size: .64rem; font-weight: 900; letter-spacing: .13em; }
+.journal-card-tag::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--card-accent); transform: skew(-12deg); }
+.journal-card-number { color: var(--card-accent); font-weight: 800; font-size: .74rem; letter-spacing: .08em; }
+.journal-card-title { position: relative; margin: 0; font-size: clamp(1.8rem, 3vw, 2.65rem); line-height: 1.12; font-weight: 900; letter-spacing: -.045em; overflow-wrap: anywhere; text-shadow: 2px 3px 0 #0005; }
+.journal-card-title::after { content: ""; display: block; width: 42px; height: 3px; margin: 21px 0 0; background: var(--card-accent); transform-origin: left; transition: transform 220ms ease; }
+.journal-card--compact .journal-card-body { min-height: 258px; display: flex; flex-direction: column; }
+.journal-card--compact .journal-facts { margin-top: auto; padding-top: 23px; }
+.journal-facts { display: flex; flex-wrap: wrap; gap: 20px 24px; margin: 23px 0 0; }
+.journal-fact { min-width: 0; max-width: 100%; }
+.journal-fact dt { color: #c0c8c5; font-size: .7rem; line-height: 1.5; }
+.journal-fact dd { margin: 5px 0 0; font-weight: 800; font-size: 1.1rem; overflow-wrap: anywhere; }
+.journal-progress { display: block; width: 100%; min-width: 84px; max-width: 150px; height: 4px; margin-top: 10px; border: 0; appearance: none; background: #ffffff26; color: var(--card-accent); }
+.journal-progress::-webkit-progress-bar { background: #ffffff26; }
+.journal-progress::-webkit-progress-value { background: var(--card-accent); }
+.journal-progress::-moz-progress-bar { background: var(--card-accent); }
+.journal-review { margin-top: 25px; border-top: 1px solid #ffffff26; padding-top: 18px; }
+.journal-review-label { margin: 0 0 10px; color: var(--card-accent); font-size: .72rem; font-weight: 750; }
+.journal-review-full, .journal-review-excerpt { margin: 0; color: #edf0ec; font-size: .91rem; line-height: 1.85; white-space: pre-wrap; overflow-wrap: anywhere; }
+.journal-review-summary { cursor: pointer; list-style: none; }
+.journal-review-summary::-webkit-details-marker { display: none; }
+.journal-review-excerpt { display: block; }
+.journal-review-toggle { display: inline-block; margin-top: 14px; min-height: 44px; padding: 12px 0; color: var(--card-accent); font-size: .78rem; font-weight: 800; }
+.review-less, .journal-review-details[open] .review-more, .journal-review-details[open] .journal-review-excerpt { display: none; }
+.journal-review-details[open] .review-less { display: inline; }
+.journal-review-details[open] .journal-review-toggle { margin-top: 0; padding-top: 4px; }
+.journal-review-details[open] .journal-review-full { animation: review-in 200ms ease both; }
+.journal-card--visual { display: grid; grid-column: 1 / -1; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
+.journal-media { min-width: 0; min-height: 280px; background: #111a19; overflow: hidden; }
+.journal-visual { display: block; position: relative; width: 100%; height: 100%; min-height: 280px; padding: 0; border: 0; color: #fff; background: transparent; cursor: zoom-in; font: inherit; }
+.journal-visual::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 60%, #0009); pointer-events: none; }
+.journal-screenshot { position: absolute; display: block; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 350ms cubic-bezier(.2,.75,.3,1); }
+.journal-image-label { position: absolute; z-index: 1; bottom: 16px; left: 16px; max-width: calc(100% - 32px); padding: 9px 12px; color: #fff; background: #101715e8; font-size: .74rem; font-weight: 750; line-height: 1.5; }
+.journal-image-error { display: none; position: relative; padding: 32px; line-height: 1.8; }
+.journal-visual--failed .journal-image-error { display: block; }
+.journal-gallery { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin-top: 22px; }
+.journal-thumbnail { position: relative; isolation: isolate; overflow: hidden; width: 64px; height: 46px; padding: 0; background: #ffffff1a; border: 1px solid #ffffff50; border-radius: 3px; color: #fff; cursor: pointer; font: inherit; }
+.journal-thumbnail img { position: absolute; inset: 0; z-index: -1; width: 100%; height: 100%; object-fit: cover; opacity: .6; }
+.journal-thumbnail:hover img { opacity: .9; }
+.game-control { min-height: 44px; padding: 10px 16px; border: 1px solid #ffffff50; border-radius: 4px; color: #fff; background: #ffffff0d; font: inherit; font-size: .85rem; cursor: pointer; }
+.journal-gallery-more { color: var(--card-accent); padding-inline: 10px; font-size: .72rem; }
+.journal-card button:focus-visible, .journal-review-summary:focus-visible, .game-viewer button:focus-visible { outline: 3px solid var(--card-accent, #9bdfbd); outline-offset: -4px; }
+.journal-review-summary:focus-visible { outline-offset: 4px; }
+.journal-load-error { color: var(--muted); }
+.game-viewer { width: min(1120px, calc(100% - 28px)); max-width: none; max-height: calc(100dvh - 28px); padding: 0; overflow: auto; color: #f5f7f3; background: #14201d; border: 1px solid #ffffff50; border-radius: 8px; box-shadow: 0 20px 70px #0006; }
+.game-viewer::backdrop { background: #09120fe8; }
+.game-viewer[open] { animation: viewer-in 180ms ease both; }
+.game-viewer-toolbar, .game-viewer-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 20px; }
+.game-viewer-title { margin: 0; font-weight: 800; overflow-wrap: anywhere; }
+.game-viewer-toolbar .game-control { flex-shrink: 0; }
+.game-viewer-frame { display: grid; place-items: center; min-height: 140px; background: #080e0c; touch-action: pan-y; }
+.game-viewer-image { display: block; width: 100%; height: min(66dvh, 720px); object-fit: contain; }
+.game-viewer-error { padding: 30px; line-height: 1.8; }
+.game-viewer-caption { margin: 0; flex: 1; text-align: center; font-size: .8rem; line-height: 1.7; overflow-wrap: anywhere; }
+.game-viewer-nav .game-control { flex-shrink: 0; }
+.journal-card.will-enter { opacity: 0; transform: translateY(14px); transition: opacity 360ms ease var(--entry-delay, 0ms), transform 360ms cubic-bezier(.2,.75,.3,1) var(--entry-delay, 0ms); }
+.journal-card.will-enter.is-visible { opacity: 1; transform: translateY(0); }
+.journal-card.will-enter.is-visible .journal-card-tag::before { animation: tag-in 300ms ease calc(var(--entry-delay, 0ms) + 60ms) both; }
+@keyframes tag-in { from { opacity: 0; transform: translateX(-18px) skew(-12deg); } to { opacity: 1; transform: translateX(0) skew(-12deg); } }
+@keyframes review-in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes viewer-in { from { opacity: 0; transform: scale(.98); } to { opacity: 1; transform: scale(1); } }
+@media (hover: hover) and (pointer: fine) {
+    .journal-card:hover { transform: translateY(-4px); }
+    .journal-card.will-enter.is-visible:hover { transform: translateY(-4px); }
+    .journal-card:hover .journal-card-title::after { transform: scaleX(1.6); }
+    .journal-visual:hover .journal-screenshot { transform: scale(1.035); }
+    .game-control:hover { background: #ffffff20; }
+}
+@media (max-width: 980px) {
+    .journal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .journal-card-title { font-size: 2.2rem; }
+}
+@media (max-width: 620px) {
+    .journal-head { gap: 12px; }
+    .journal-index { flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; }
+    .journal-index strong { font-size: 1.8rem; }
+    .journal-index span { font-size: .65rem; }
+    .journal-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+    .journal-card--visual { grid-column: auto; grid-template-columns: minmax(0, 1fr); }
+    .journal-card-body { padding: 22px 24px 28px; }
+    .journal-card--compact .journal-card-body { min-height: 235px; }
+    .journal-media, .journal-visual { min-height: 0; aspect-ratio: 16 / 10; }
+    .game-viewer-toolbar, .game-viewer-nav { padding: 12px; gap: 8px; }
+    .game-viewer-nav { flex-wrap: wrap; }
+    .game-viewer-caption { flex-basis: 100%; order: -1; }
+    .game-viewer-image { height: 55dvh; }
+    .game-viewer-nav .game-control { flex: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .journal-card, .journal-card *, .journal-card::before, .journal-card::after, .game-viewer, .game-viewer * { animation: none !important; transition: none !important; }
+    .journal-card.will-enter { opacity: 1; transform: none; }
+    .journal-card:hover { transform: none; }
+    .journal-visual:hover .journal-screenshot { transform: none; }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZZH Steam 首页</title>
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/game-cards.css">
 </head>
 
 <body>
@@ -77,6 +78,20 @@
                 </aside>
             </section>
 
+            <section class="game-journal" id="game-journal" aria-labelledby="journal-title" hidden>
+                <div class="journal-head">
+                    <div>
+                        <p class="journal-kicker">PLAY / ARCHIVE</p>
+                        <h2 id="journal-title">游戏手记<span aria-hidden="true">↗</span></h2>
+                        <p class="journal-copy">玩过的世界，留在这里。</p>
+                    </div>
+                    <p class="journal-index"><strong id="journal-count"></strong><span>游戏记录<br>新增在前</span></p>
+                </div>
+                <div class="journal-grid" id="game-cards"></div>
+            </section>
+            <p class="journal-load-error" id="journal-load-error" role="status" hidden>游戏手记加载失败，请刷新页面重试。</p>
+            <noscript><p>启用 JavaScript 后可查看游戏手记。</p></noscript>
+
             <section class="section-band" aria-labelledby="guides-title">
                 <div class="section-head">
                     <div>
@@ -132,6 +147,8 @@
     </div>
 
     <script src="assets/js/home.js" defer></script>
+    <script src="assets/js/game-cards.js" defer></script>
+    <script src="assets/js/game-journal.js" defer></script>
 </body>
 
 </html>

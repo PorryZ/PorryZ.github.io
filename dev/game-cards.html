@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>游戏卡片 · 开发预览</title>
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/css/game-cards.css">
+    <style>
+        .preview-note { margin: 28px 0; padding: 20px; border: 1px solid var(--line); background: #fff; border-radius: 8px; line-height: 1.8; }
+        .preview-note h1 { font-size: 1.6rem; line-height: 1.4; }
+        .preview-controls { display: flex; flex-wrap: wrap; gap: 12px; }
+        .preview-controls select { min-height: 44px; max-width: 100%; padding: 8px; font: inherit; }
+        .preview-status { color: var(--muted); }
+        .preview-section { margin-bottom: 36px; }
+    </style>
+</head>
+<body>
+    <main class="site-shell">
+        <header class="preview-note">
+            <h1>游戏卡片 / 开发预览</h1>
+            <p>以下均为测试资料。几何测试图不是游戏截图，文字不是用户测评，数值不是真实游玩记录。此页独立于正式主页。</p>
+            <div class="preview-controls">
+                <label>测试场景 <select id="scenario">
+                    <option value="all">全部变体</option>
+                    <option value="single">单张截图</option>
+                    <option value="broken">截图加载失败</option>
+                    <option value="empty">空记录</option>
+                </select></label>
+                <a class="action" href="../index.html#game-journal">返回正式主页 ↗</a>
+            </div>
+            <p class="preview-status" id="preview-status" role="status"></p>
+        </header>
+        <section class="preview-section" aria-label="测试卡片"><div class="journal-grid" id="preview-cards"></div></section>
+    </main>
+    <script src="../assets/js/game-cards.js"></script>
+    <script src="game-cards-preview.js"></script>
+</body>
+</html>
