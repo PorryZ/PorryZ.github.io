@@ -4,40 +4,88 @@
   "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-09-10T07:06:32.815Z",
-  "summary": "已同步 139 款 Steam 游戏，累计约 3617 小时，近两周约 55 小时。",
+  "lastUpdated": "2026-10-12T06:59:53.202Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3691 小时，近两周约 34 小时。",
   "recentGames": [
     {
-      "appId": 1617400,
-      "name": "The Bazaar",
-      "playtimeForever": 5575,
-      "playtimeTwoWeeks": 2072,
+      "appId": 2185060,
+      "name": "Two Point Museum",
+      "playtimeForever": 2159,
+      "playtimeTwoWeeks": 915,
       "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
       "appId": 2679460,
       "name": "Metaphor: ReFantazio",
-      "playtimeForever": 3543,
-      "playtimeTwoWeeks": 479,
+      "playtimeForever": 5447,
+      "playtimeTwoWeeks": 370,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
     },
     {
-      "appId": 2060160,
-      "name": "The Farmer Was Replaced",
-      "playtimeForever": 392,
-      "playtimeTwoWeeks": 392,
+      "appId": 787480,
+      "name": "Phoenix Wright: Ace Attorney Trilogy",
+      "playtimeForever": 182,
+      "playtimeTwoWeeks": 182,
       "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2060160/header.jpg"
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/787480/header.jpg"
     },
     {
-      "appId": 4001890,
-      "name": "How to Fish",
-      "playtimeForever": 329,
-      "playtimeTwoWeeks": 329,
+      "appId": 686060,
+      "name": "Mewgenics",
+      "playtimeForever": 258,
+      "playtimeTwoWeeks": 175,
       "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4001890/header.jpg"
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
+    },
+    {
+      "appId": 2379780,
+      "name": "Balatro",
+      "playtimeForever": 168,
+      "playtimeTwoWeeks": 168,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg"
+    },
+    {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 160,
+      "playtimeTwoWeeks": 160,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
+      "appId": 1091500,
+      "name": "Cyberpunk 2077",
+      "playtimeForever": 49,
+      "playtimeTwoWeeks": 49,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
+    },
+    {
+      "appId": 1235140,
+      "name": "Yakuza: Like a Dragon",
+      "playtimeForever": 35,
+      "playtimeTwoWeeks": 35,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
+    },
+    {
+      "appId": 3117820,
+      "name": "Sultan's Game",
+      "playtimeForever": 2789,
+      "playtimeTwoWeeks": 1,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/3117820/header.jpg"
+    },
+    {
+      "appId": 1086940,
+      "name": "Baldur's Gate 3",
+      "playtimeForever": 122,
+      "playtimeTwoWeeks": 1,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg"
     }
   ],
   "games": [
@@ -52,9 +100,9 @@
     {
       "appId": 457140,
       "name": "Oxygen Not Included",
-      "playtimeForever": 22194,
+      "playtimeForever": 22195,
       "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-07-31T14:30:38.000Z",
+      "lastPlayed": "2026-09-16T04:25:48.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/457140/header.jpg"
     },
     {
@@ -76,9 +124,9 @@
     {
       "appId": 1687950,
       "name": "Persona 5 Royal",
-      "playtimeForever": 8485,
+      "playtimeForever": 8549,
       "playtimeTwoWeeks": 0,
-      "lastPlayed": "2025-02-11T18:19:28.000Z",
+      "lastPlayed": "2026-09-22T16:09:24.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg"
     },
     {
@@ -90,6 +138,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203220/header.jpg"
     },
     {
+      "appId": 1617400,
+      "name": "The Bazaar",
+      "playtimeForever": 6619,
+      "playtimeTwoWeeks": 0,
+      "lastPlayed": "2026-09-16T16:32:33.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
+    },
+    {
       "appId": 960090,
       "name": "Bloons TD 6",
       "playtimeForever": 6185,
@@ -98,12 +154,12 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/960090/header.jpg"
     },
     {
-      "appId": 1617400,
-      "name": "The Bazaar",
-      "playtimeForever": 5575,
-      "playtimeTwoWeeks": 2072,
-      "lastPlayed": "2026-09-09T11:30:29.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
+      "appId": 2679460,
+      "name": "Metaphor: ReFantazio",
+      "playtimeForever": 5447,
+      "playtimeTwoWeeks": 370,
+      "lastPlayed": "2026-09-28T14:31:38.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
     },
     {
       "appId": 105600,
@@ -130,14 +186,6 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1621690/header.jpg"
     },
     {
-      "appId": 2679460,
-      "name": "Metaphor: ReFantazio",
-      "playtimeForever": 3543,
-      "playtimeTwoWeeks": 479,
-      "lastPlayed": "2026-09-10T04:56:49.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
-    },
-    {
       "appId": 1942280,
       "name": "Brotato",
       "playtimeForever": 3417,
@@ -156,9 +204,9 @@
     {
       "appId": 431960,
       "name": "Wallpaper Engine",
-      "playtimeForever": 3055,
-      "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-07-21T03:46:50.000Z",
+      "playtimeForever": 3056,
+      "playtimeTwoWeeks": 1,
+      "lastPlayed": "2026-10-09T11:29:14.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
     },
     {
@@ -168,6 +216,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-04-13T06:14:44.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/588650/header.jpg"
+    },
+    {
+      "appId": 2185060,
+      "name": "Two Point Museum",
+      "playtimeForever": 2159,
+      "playtimeTwoWeeks": 915,
+      "lastPlayed": "2026-10-11T09:57:28.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
       "appId": 535930,
@@ -212,17 +268,17 @@
     {
       "appId": 2427700,
       "name": "Backpack Battles",
-      "playtimeForever": 1751,
+      "playtimeForever": 1758,
       "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-08-08T16:46:06.000Z",
+      "lastPlayed": "2026-09-15T13:08:47.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2427700/header.jpg"
     },
     {
       "appId": 4160210,
       "name": "The Artisan of Glimmith",
-      "playtimeForever": 1627,
+      "playtimeForever": 1676,
       "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-07-06T04:25:40.000Z",
+      "lastPlayed": "2026-09-19T16:47:44.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
     },
     {
@@ -272,14 +328,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2022-12-20T12:54:05.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg"
-    },
-    {
-      "appId": 2185060,
-      "name": "Two Point Museum",
-      "playtimeForever": 1244,
-      "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-08-18T12:26:21.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
       "appId": 728880,
@@ -533,7 +581,7 @@
       "appId": 2060160,
       "name": "The Farmer Was Replaced",
       "playtimeForever": 392,
-      "playtimeTwoWeeks": 392,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-09-08T04:10:24.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2060160/header.jpg"
     },
@@ -565,7 +613,7 @@
       "appId": 4001890,
       "name": "How to Fish",
       "playtimeForever": 329,
-      "playtimeTwoWeeks": 329,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-09-03T12:35:17.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4001890/header.jpg"
     },
@@ -616,6 +664,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-07-26T09:10:25.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4704690/header.jpg"
+    },
+    {
+      "appId": 686060,
+      "name": "Mewgenics",
+      "playtimeForever": 258,
+      "playtimeTwoWeeks": 175,
+      "lastPlayed": "2026-10-04T04:53:30.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
     },
     {
       "appId": 1335790,
@@ -688,6 +744,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-02-10T11:35:47.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1649080/header.jpg"
+    },
+    {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 160,
+      "playtimeTwoWeeks": 160,
+      "lastPlayed": "2026-10-11T04:45:38.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 38150,
@@ -835,7 +899,7 @@
     },
     {
       "appId": 292030,
-      "name": "The Witcher 3: Wild Hunt - Complete Edition",
+      "name": "The Witcher 3: Wild Hunt — Remastered",
       "playtimeForever": 67,
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2021-09-18T15:48:36.000Z",
@@ -912,6 +976,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-03-24T16:02:39.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg"
+    },
+    {
+      "appId": 1235140,
+      "name": "Yakuza: Like a Dragon",
+      "playtimeForever": 35,
+      "playtimeTwoWeeks": 35,
+      "lastPlayed": "2026-10-08T16:21:46.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
     },
     {
       "appId": 359550,
@@ -1146,12 +1218,28 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1815440/header.jpg"
     },
     {
+      "appId": 2072450,
+      "name": "Like a Dragon: Infinite Wealth",
+      "playtimeForever": 0,
+      "playtimeTwoWeeks": 0,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2072450/header.jpg"
+    },
+    {
       "appId": 2828500,
       "name": "The Jackbox Megapicker",
       "playtimeForever": 0,
       "playtimeTwoWeeks": 0,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2828500/header.jpg"
+    },
+    {
+      "appId": 3319700,
+      "name": "新世界：暗影成双",
+      "playtimeForever": 0,
+      "playtimeTwoWeeks": 0,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/3319700/header.jpg"
     }
   ]
 }

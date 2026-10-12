@@ -54,7 +54,7 @@ const endpoints = {
 };
 
 function redactUrl(url) {
-  return url.replace(/key=[^&]+/i, "key=[redacted]");
+  return String(url).replace(/key=[^&\s]+/gi, "key=[redacted]").split(apiKey).join("[redacted]");
 }
 
 async function getJson(url) {
@@ -76,7 +76,7 @@ async function getJson(url) {
 
       return JSON.parse(stdout);
     } catch (error) {
-      lastError = new Error(`Failed to fetch ${redactUrl(url)}: ${error.message}`);
+      lastError = new Error(`Failed to fetch ${redactUrl(url)}: ${redactUrl(error.message)}`);
       if (attempt < 3) {
         await new Promise((resolveRetry) => setTimeout(resolveRetry, attempt * 1000));
       }
@@ -108,8 +108,23 @@ const [playerData, ownedData, recentData] = await Promise.all([
   getJson(endpoints.recent)
 ]);
 
-const player = playerData.response?.players?.[0] || {};
-const ownedGames = (ownedData.response?.games || [])
+// Private or malformed API responses must not replace the last good snapshot.
+const player = playerData.response?.players?.[0];
+const ownedResponse = ownedData.response;
+if (!player || player.steamid !== steamId) {
+  throw new Error("Steam player data is unavailable. The previous snapshot was preserved.");
+}
+if (!Number.isInteger(ownedResponse?.game_count) || ownedResponse.game_count < 0 ||
+    (ownedResponse.games?.length || 0) !== ownedResponse.game_count ||
+    (ownedResponse.games !== undefined && !Array.isArray(ownedResponse.games))) {
+  throw new Error("Steam game library is unavailable or incomplete. Check game-details privacy. The previous snapshot was preserved.");
+}
+if (!Number.isInteger(recentData.response?.total_count) || recentData.response.total_count < 0 ||
+    (recentData.response.games !== undefined && !Array.isArray(recentData.response.games)) ||
+    (recentData.response.total_count > 0 && !recentData.response.games?.length)) {
+  throw new Error("Steam recent games are unavailable. The previous snapshot was preserved.");
+}
+const ownedGames = (ownedResponse.games || [])
   .map(normalizeGame)
   .sort((a, b) => b.playtimeForever - a.playtimeForever);
 const recentGames = (recentData.response?.games || [])

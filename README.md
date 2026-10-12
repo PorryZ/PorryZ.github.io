@@ -2,7 +2,7 @@
 
 ZZH 的个人主页，包含 Steam 游戏数据、泰拉瑞亚与苏丹的游戏攻略、无畏契约视频、智能车记录和留言板。
 
-线上地址：<https://porryz.github.io/>。网站是纯静态 HTML/CSS/JavaScript，GitHub Pages 从仓库根目录发布，无需构建或安装前端依赖。
+线上地址：<https://porryz.github.io/>。网站是纯静态 HTML/CSS/JavaScript，GitHub Actions 从 `main` 分支打包并发布到 GitHub Pages，无需构建或安装前端依赖。
 
 ## 目录结构
 
@@ -65,8 +65,25 @@ node scripts/sync-steam.mjs
 
 结果写入 `data/steam.json`。检查数据后提交该文件即可更新首页；`.env` 与 `.env.local` 已被 Git 忽略。
 
+### 每天在云端同步
+
+`.github/workflows/sync-steam.yml` 每天北京时间 **08:17**（UTC 00:17）运行：获取 Steam 数据 → 检查游戏卡片 → 提交并推送 `data/steam.json` 到 `main`。任务在 GitHub 服务器运行，不需要本地电脑开机。GitHub 的定时任务可能有排队延迟。
+
+仓库的 **Settings → Secrets and variables → Actions → Repository secrets** 需要配置：
+
+- `STEAM_API_KEY`：Steam Web API Key。
+- `STEAM_ID64`：Steam 账号的 64 位 ID。
+
+云端直接使用 Secrets，不读取本地 `.env`。如果以后在本地更换 API Key，也需要更新同名 Repository secret。Steam 游戏详情需要公开；接口异常或库数据不完整时，同步失败并保留原有快照。
+
+需要立即同步时，在 **Actions → Sync Steam data → Run workflow** 手动运行。修改执行时间时，编辑 `sync-steam.yml` 的 cron 表达式，按 UTC 填写。
+
+同步成功后，`.github/workflows/deploy-pages.yml` 使用 `workflow_run` 事件发布主页，因为 `GITHUB_TOKEN` 的机器人推送不会触发普通 `push` 工作流。人工推送到 `main` 及手动运行 **Deploy homepage** 也会发布。
+
+GitHub Pages 的 **Settings → Pages → Build and deployment → Source** 应设置为 **GitHub Actions**。发布文件只有根目录 HTML、`assets/` 和 `data/`；本地配置文件不进入发布包。
+
 ## 发布
 
-本地预览并检查页面链接、攻略表格和视频后，将变更提交并推送到 `main`，由仓库的 GitHub Pages 配置发布。留言板的 Giscus 配置位于 `message-board.html`。
+本地预览并检查页面链接、攻略表格和视频后，将变更提交并推送到 `main`，由 **Deploy homepage** 工作流发布到 GitHub Pages。留言板的 Giscus 配置位于 `message-board.html`。
 
 此仓库不使用 Git 子模块。如果 Actions 报错缺少 `PorryZ.github.io` 的子模块 URL，应检查并移除残留子模块配置；可用 `git ls-files -s` 确认索引中没有模式为 `160000` 的条目。
