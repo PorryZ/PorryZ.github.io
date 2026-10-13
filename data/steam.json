@@ -4,8 +4,8 @@
   "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-12T07:01:44.821Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3691 小时，近两周约 34 小时。",
+  "lastUpdated": "2026-10-13T06:45:51.477Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3692 小时，近两周约 27 小时。",
   "recentGames": [
     {
       "appId": 2185060,
@@ -16,12 +16,12 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
-      "appId": 2679460,
-      "name": "Metaphor: ReFantazio",
-      "playtimeForever": 5447,
-      "playtimeTwoWeeks": 370,
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 229,
+      "playtimeTwoWeeks": 229,
       "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 787480,
@@ -32,28 +32,12 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/787480/header.jpg"
     },
     {
-      "appId": 686060,
-      "name": "Mewgenics",
-      "playtimeForever": 258,
-      "playtimeTwoWeeks": 175,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
-    },
-    {
       "appId": 2379780,
       "name": "Balatro",
       "playtimeForever": 168,
       "playtimeTwoWeeks": 168,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 160,
-      "playtimeTwoWeeks": 160,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 1091500,
@@ -64,12 +48,28 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
     },
     {
+      "appId": 686060,
+      "name": "Mewgenics",
+      "playtimeForever": 258,
+      "playtimeTwoWeeks": 44,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
+    },
+    {
       "appId": 1235140,
       "name": "Yakuza: Like a Dragon",
       "playtimeForever": 35,
       "playtimeTwoWeeks": 35,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
+    },
+    {
+      "appId": 4160210,
+      "name": "The Artisan of Glimmith",
+      "playtimeForever": 1676,
+      "playtimeTwoWeeks": 1,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
     },
     {
       "appId": 3117820,
@@ -157,7 +157,7 @@
       "appId": 2679460,
       "name": "Metaphor: ReFantazio",
       "playtimeForever": 5447,
-      "playtimeTwoWeeks": 370,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-09-28T14:31:38.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
     },
@@ -277,8 +277,8 @@
       "appId": 4160210,
       "name": "The Artisan of Glimmith",
       "playtimeForever": 1676,
-      "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-09-19T16:47:44.000Z",
+      "playtimeTwoWeeks": 1,
+      "lastPlayed": "2026-10-12T14:25:09.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
     },
     {
@@ -669,7 +669,7 @@
       "appId": 686060,
       "name": "Mewgenics",
       "playtimeForever": 258,
-      "playtimeTwoWeeks": 175,
+      "playtimeTwoWeeks": 44,
       "lastPlayed": "2026-10-04T04:53:30.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
     },
@@ -704,6 +704,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2023-11-16T16:17:55.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg"
+    },
+    {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 229,
+      "playtimeTwoWeeks": 229,
+      "lastPlayed": "2026-10-12T15:50:17.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 1366540,
@@ -744,14 +752,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-02-10T11:35:47.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1649080/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 160,
-      "playtimeTwoWeeks": 160,
-      "lastPlayed": "2026-10-11T04:45:38.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 38150,
