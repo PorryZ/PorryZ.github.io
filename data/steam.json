@@ -1,25 +1,25 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 0,
+  "personaState": 1,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-13T06:45:51.477Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3692 小时，近两周约 27 小时。",
+  "lastUpdated": "2026-10-14T04:50:57.184Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3697 小时，近两周约 32 小时。",
   "recentGames": [
     {
       "appId": 2185060,
       "name": "Two Point Museum",
-      "playtimeForever": 2159,
-      "playtimeTwoWeeks": 915,
+      "playtimeForever": 2191,
+      "playtimeTwoWeeks": 947,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 229,
-      "playtimeTwoWeeks": 229,
+      "playtimeForever": 498,
+      "playtimeTwoWeeks": 498,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -48,20 +48,20 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
     },
     {
+      "appId": 1235140,
+      "name": "Yakuza: Like a Dragon",
+      "playtimeForever": 46,
+      "playtimeTwoWeeks": 46,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
+    },
+    {
       "appId": 686060,
       "name": "Mewgenics",
       "playtimeForever": 258,
-      "playtimeTwoWeeks": 44,
+      "playtimeTwoWeeks": 17,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
-    },
-    {
-      "appId": 1235140,
-      "name": "Yakuza: Like a Dragon",
-      "playtimeForever": 35,
-      "playtimeTwoWeeks": 35,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
     },
     {
       "appId": 4160210,
@@ -220,9 +220,9 @@
     {
       "appId": 2185060,
       "name": "Two Point Museum",
-      "playtimeForever": 2159,
-      "playtimeTwoWeeks": 915,
-      "lastPlayed": "2026-10-11T09:57:28.000Z",
+      "playtimeForever": 2191,
+      "playtimeTwoWeeks": 947,
+      "lastPlayed": "2026-10-14T04:32:17.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
@@ -506,6 +506,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/386940/header.jpg"
     },
     {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 498,
+      "playtimeTwoWeeks": 498,
+      "lastPlayed": "2026-10-13T15:55:31.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
       "appId": 1296610,
       "name": "Peglin",
       "playtimeForever": 483,
@@ -669,7 +677,7 @@
       "appId": 686060,
       "name": "Mewgenics",
       "playtimeForever": 258,
-      "playtimeTwoWeeks": 44,
+      "playtimeTwoWeeks": 17,
       "lastPlayed": "2026-10-04T04:53:30.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
     },
@@ -704,14 +712,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2023-11-16T16:17:55.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 229,
-      "playtimeTwoWeeks": 229,
-      "lastPlayed": "2026-10-12T15:50:17.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 1366540,
@@ -954,6 +954,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/251570/header.jpg"
     },
     {
+      "appId": 1235140,
+      "name": "Yakuza: Like a Dragon",
+      "playtimeForever": 46,
+      "playtimeTwoWeeks": 46,
+      "lastPlayed": "2026-10-13T10:52:09.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
+    },
+    {
       "appId": 246620,
       "name": "Plague Inc: Evolved",
       "playtimeForever": 45,
@@ -976,14 +984,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-03-24T16:02:39.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg"
-    },
-    {
-      "appId": 1235140,
-      "name": "Yakuza: Like a Dragon",
-      "playtimeForever": 35,
-      "playtimeTwoWeeks": 35,
-      "lastPlayed": "2026-10-08T16:21:46.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
     },
     {
       "appId": 359550,
