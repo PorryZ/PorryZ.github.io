@@ -1,25 +1,25 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 1,
+  "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-14T04:50:57.184Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3697 小时，近两周约 32 小时。",
+  "lastUpdated": "2026-10-15T04:36:01.947Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3700 小时，近两周约 33 小时。",
   "recentGames": [
     {
       "appId": 2185060,
       "name": "Two Point Museum",
-      "playtimeForever": 2191,
-      "playtimeTwoWeeks": 947,
+      "playtimeForever": 2236,
+      "playtimeTwoWeeks": 992,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 498,
-      "playtimeTwoWeeks": 498,
+      "playtimeForever": 628,
+      "playtimeTwoWeeks": 628,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -35,7 +35,7 @@
       "appId": 2379780,
       "name": "Balatro",
       "playtimeForever": 168,
-      "playtimeTwoWeeks": 168,
+      "playtimeTwoWeeks": 75,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg"
     },
@@ -220,9 +220,9 @@
     {
       "appId": 2185060,
       "name": "Two Point Museum",
-      "playtimeForever": 2191,
-      "playtimeTwoWeeks": 947,
-      "lastPlayed": "2026-10-14T04:32:17.000Z",
+      "playtimeForever": 2236,
+      "playtimeTwoWeeks": 992,
+      "lastPlayed": "2026-10-14T15:17:49.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
@@ -482,6 +482,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/286160/header.jpg"
     },
     {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 628,
+      "playtimeTwoWeeks": 628,
+      "lastPlayed": "2026-10-14T12:36:54.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
       "appId": 736190,
       "name": "Chinese Parents",
       "playtimeForever": 610,
@@ -504,14 +512,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-10-25T15:46:48.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/386940/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 498,
-      "playtimeTwoWeeks": 498,
-      "lastPlayed": "2026-10-13T15:55:31.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 1296610,
