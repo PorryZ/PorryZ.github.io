@@ -4,8 +4,8 @@
   "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-15T04:36:01.947Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3700 小时，近两周约 33 小时。",
+  "lastUpdated": "2026-10-16T04:29:44.738Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3701 小时，近两周约 30 小时。",
   "recentGames": [
     {
       "appId": 2185060,
@@ -18,26 +18,18 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 628,
-      "playtimeTwoWeeks": 628,
+      "playtimeForever": 629,
+      "playtimeTwoWeeks": 629,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
-      "appId": 787480,
-      "name": "Phoenix Wright: Ace Attorney Trilogy",
-      "playtimeForever": 182,
-      "playtimeTwoWeeks": 182,
+      "appId": 1687950,
+      "name": "Persona 5 Royal",
+      "playtimeForever": 8604,
+      "playtimeTwoWeeks": 55,
       "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/787480/header.jpg"
-    },
-    {
-      "appId": 2379780,
-      "name": "Balatro",
-      "playtimeForever": 168,
-      "playtimeTwoWeeks": 75,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg"
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg"
     },
     {
       "appId": 1091500,
@@ -56,6 +48,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
     },
     {
+      "appId": 787480,
+      "name": "Phoenix Wright: Ace Attorney Trilogy",
+      "playtimeForever": 182,
+      "playtimeTwoWeeks": 22,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/787480/header.jpg"
+    },
+    {
       "appId": 686060,
       "name": "Mewgenics",
       "playtimeForever": 258,
@@ -64,28 +64,28 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
     },
     {
+      "appId": 2379780,
+      "name": "Balatro",
+      "playtimeForever": 168,
+      "playtimeTwoWeeks": 8,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg"
+    },
+    {
+      "appId": 2679460,
+      "name": "Metaphor: ReFantazio",
+      "playtimeForever": 5450,
+      "playtimeTwoWeeks": 2,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
+    },
+    {
       "appId": 4160210,
       "name": "The Artisan of Glimmith",
       "playtimeForever": 1676,
       "playtimeTwoWeeks": 1,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
-    },
-    {
-      "appId": 3117820,
-      "name": "Sultan's Game",
-      "playtimeForever": 2789,
-      "playtimeTwoWeeks": 1,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/3117820/header.jpg"
-    },
-    {
-      "appId": 1086940,
-      "name": "Baldur's Gate 3",
-      "playtimeForever": 122,
-      "playtimeTwoWeeks": 1,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg"
     }
   ],
   "games": [
@@ -124,9 +124,9 @@
     {
       "appId": 1687950,
       "name": "Persona 5 Royal",
-      "playtimeForever": 8549,
-      "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-09-22T16:09:24.000Z",
+      "playtimeForever": 8604,
+      "playtimeTwoWeeks": 55,
+      "lastPlayed": "2026-10-15T16:10:53.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg"
     },
     {
@@ -156,9 +156,9 @@
     {
       "appId": 2679460,
       "name": "Metaphor: ReFantazio",
-      "playtimeForever": 5447,
-      "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-09-28T14:31:38.000Z",
+      "playtimeForever": 5450,
+      "playtimeTwoWeeks": 2,
+      "lastPlayed": "2026-10-15T14:45:33.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
     },
     {
@@ -484,9 +484,9 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 628,
-      "playtimeTwoWeeks": 628,
-      "lastPlayed": "2026-10-14T12:36:54.000Z",
+      "playtimeForever": 629,
+      "playtimeTwoWeeks": 629,
+      "lastPlayed": "2026-10-15T14:43:13.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
