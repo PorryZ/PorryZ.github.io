@@ -1,11 +1,11 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 3,
+  "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-17T04:23:15.331Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3704 小时，近两周约 33 小时。",
+  "lastUpdated": "2026-10-18T04:30:16.168Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3706 小时，近两周约 35 小时。",
   "recentGames": [
     {
       "appId": 2185060,
@@ -18,8 +18,8 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 696,
-      "playtimeTwoWeeks": 696,
+      "playtimeForever": 826,
+      "playtimeTwoWeeks": 826,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -51,17 +51,9 @@
       "appId": 1091500,
       "name": "Cyberpunk 2077",
       "playtimeForever": 49,
-      "playtimeTwoWeeks": 49,
+      "playtimeTwoWeeks": 34,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
-    },
-    {
-      "appId": 2379780,
-      "name": "Balatro",
-      "playtimeForever": 168,
-      "playtimeTwoWeeks": 8,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg"
     },
     {
       "appId": 2679460,
@@ -72,20 +64,28 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
     },
     {
-      "appId": 787480,
-      "name": "Phoenix Wright: Ace Attorney Trilogy",
-      "playtimeForever": 182,
-      "playtimeTwoWeeks": 1,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/787480/header.jpg"
-    },
-    {
       "appId": 4160210,
       "name": "The Artisan of Glimmith",
       "playtimeForever": 1676,
       "playtimeTwoWeeks": 1,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
+    },
+    {
+      "appId": 3117820,
+      "name": "Sultan's Game",
+      "playtimeForever": 2789,
+      "playtimeTwoWeeks": 1,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/3117820/header.jpg"
+    },
+    {
+      "appId": 1086940,
+      "name": "Baldur's Gate 3",
+      "playtimeForever": 122,
+      "playtimeTwoWeeks": 1,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg"
     }
   ],
   "games": [
@@ -450,20 +450,20 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg"
     },
     {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 826,
+      "playtimeTwoWeeks": 826,
+      "lastPlayed": "2026-10-17T16:34:22.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
       "appId": 381210,
       "name": "Dead by Daylight",
       "playtimeForever": 790,
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2021-06-30T11:41:52.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 696,
-      "playtimeTwoWeeks": 696,
-      "lastPlayed": "2026-10-17T03:21:38.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 1046030,
