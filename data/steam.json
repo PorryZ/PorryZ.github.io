@@ -4,30 +4,30 @@
   "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-18T04:30:16.168Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3706 小时，近两周约 35 小时。",
+  "lastUpdated": "2026-10-19T04:38:14.159Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3710 小时，近两周约 37 小时。",
   "recentGames": [
+    {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 1081,
+      "playtimeTwoWeeks": 1081,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
     {
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2258,
-      "playtimeTwoWeeks": 1014,
+      "playtimeTwoWeeks": 925,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 826,
-      "playtimeTwoWeeks": 826,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 686060,
       "name": "Mewgenics",
       "playtimeForever": 326,
-      "playtimeTwoWeeks": 84,
+      "playtimeTwoWeeks": 67,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
     },
@@ -48,14 +48,6 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg"
     },
     {
-      "appId": 1091500,
-      "name": "Cyberpunk 2077",
-      "playtimeForever": 49,
-      "playtimeTwoWeeks": 34,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
-    },
-    {
       "appId": 2679460,
       "name": "Metaphor: ReFantazio",
       "playtimeForever": 5450,
@@ -72,20 +64,12 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
     },
     {
-      "appId": 3117820,
-      "name": "Sultan's Game",
-      "playtimeForever": 2789,
+      "appId": 431960,
+      "name": "Wallpaper Engine",
+      "playtimeForever": 3056,
       "playtimeTwoWeeks": 1,
       "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/3117820/header.jpg"
-    },
-    {
-      "appId": 1086940,
-      "name": "Baldur's Gate 3",
-      "playtimeForever": 122,
-      "playtimeTwoWeeks": 1,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg"
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
     }
   ],
   "games": [
@@ -221,7 +205,7 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2258,
-      "playtimeTwoWeeks": 1014,
+      "playtimeTwoWeeks": 925,
       "lastPlayed": "2026-10-16T14:44:42.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
@@ -354,6 +338,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1418630/header.jpg"
     },
     {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 1081,
+      "playtimeTwoWeeks": 1081,
+      "lastPlayed": "2026-10-18T15:51:43.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
       "appId": 1016920,
       "name": "Unrailed!",
       "playtimeForever": 1079,
@@ -448,14 +440,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-08-24T08:37:59.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 826,
-      "playtimeTwoWeeks": 826,
-      "lastPlayed": "2026-10-17T16:34:22.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 381210,
@@ -629,7 +613,7 @@
       "appId": 686060,
       "name": "Mewgenics",
       "playtimeForever": 326,
-      "playtimeTwoWeeks": 84,
+      "playtimeTwoWeeks": 67,
       "lastPlayed": "2026-10-16T09:40:30.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
     },
