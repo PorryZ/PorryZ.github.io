@@ -1,17 +1,17 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 3,
+  "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-20T04:47:55.601Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3711 小时，近两周约 36 小时。",
+  "lastUpdated": "2026-10-21T04:43:40.238Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3713 小时，近两周约 37 小时。",
   "recentGames": [
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 1139,
-      "playtimeTwoWeeks": 1139,
+      "playtimeForever": 1180,
+      "playtimeTwoWeeks": 1180,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -19,9 +19,17 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2258,
-      "playtimeTwoWeeks": 804,
+      "playtimeTwoWeeks": 803,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
+    },
+    {
+      "appId": 2161700,
+      "name": "Persona 3 Reload",
+      "playtimeForever": 1908,
+      "playtimeTwoWeeks": 74,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg"
     },
     {
       "appId": 686060,
@@ -205,7 +213,7 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2258,
-      "playtimeTwoWeeks": 804,
+      "playtimeTwoWeeks": 803,
       "lastPlayed": "2026-10-16T14:44:42.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
@@ -216,6 +224,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2024-09-22T12:53:56.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/535930/header.jpg"
+    },
+    {
+      "appId": 2161700,
+      "name": "Persona 3 Reload",
+      "playtimeForever": 1908,
+      "playtimeTwoWeeks": 74,
+      "lastPlayed": "2026-10-20T14:48:45.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg"
     },
     {
       "appId": 1568590,
@@ -232,14 +248,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2024-08-04T13:15:46.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg"
-    },
-    {
-      "appId": 2161700,
-      "name": "Persona 3 Reload",
-      "playtimeForever": 1833,
-      "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-06-11T15:48:24.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg"
     },
     {
       "appId": 294100,
@@ -322,20 +330,20 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg"
     },
     {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 1180,
+      "playtimeTwoWeeks": 1180,
+      "lastPlayed": "2026-10-20T14:48:45.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
       "appId": 1245620,
       "name": "ELDEN RING",
       "playtimeForever": 1167,
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2023-04-27T05:20:45.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 1139,
-      "playtimeTwoWeeks": 1139,
-      "lastPlayed": "2026-10-19T15:44:37.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 1418630,
