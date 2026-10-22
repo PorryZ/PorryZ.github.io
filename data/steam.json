@@ -4,14 +4,14 @@
   "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-21T04:43:40.238Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3713 小时，近两周约 37 小时。",
+  "lastUpdated": "2026-10-22T04:41:28.934Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3714 小时，近两周约 39 小时。",
   "recentGames": [
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 1180,
-      "playtimeTwoWeeks": 1180,
+      "playtimeForever": 1258,
+      "playtimeTwoWeeks": 1258,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -314,6 +314,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/751780/header.jpg"
     },
     {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 1258,
+      "playtimeTwoWeeks": 1258,
+      "lastPlayed": "2026-10-21T11:43:44.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
       "appId": 945360,
       "name": "Among Us",
       "playtimeForever": 1251,
@@ -328,14 +336,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-08-28T16:30:57.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 1180,
-      "playtimeTwoWeeks": 1180,
-      "lastPlayed": "2026-10-20T14:48:45.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 1245620,
