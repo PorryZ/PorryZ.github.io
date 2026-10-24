@@ -4,14 +4,14 @@
   "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-23T04:46:47.926Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3717 小时，近两周约 38 小时。",
+  "lastUpdated": "2026-10-24T04:34:04.105Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3718 小时，近两周约 37 小时。",
   "recentGames": [
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 1396,
-      "playtimeTwoWeeks": 1378,
+      "playtimeForever": 1439,
+      "playtimeTwoWeeks": 1377,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -19,7 +19,7 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2267,
-      "playtimeTwoWeeks": 696,
+      "playtimeTwoWeeks": 595,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
@@ -70,14 +70,6 @@
       "playtimeTwoWeeks": 1,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
-    },
-    {
-      "appId": 431960,
-      "name": "Wallpaper Engine",
-      "playtimeForever": 3056,
-      "playtimeTwoWeeks": 1,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
     }
   ],
   "games": [
@@ -197,7 +189,7 @@
       "appId": 431960,
       "name": "Wallpaper Engine",
       "playtimeForever": 3056,
-      "playtimeTwoWeeks": 1,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-10-09T11:29:14.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
     },
@@ -213,7 +205,7 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2267,
-      "playtimeTwoWeeks": 696,
+      "playtimeTwoWeeks": 595,
       "lastPlayed": "2026-10-22T13:33:23.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
@@ -274,20 +266,20 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
     },
     {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 1439,
+      "playtimeTwoWeeks": 1377,
+      "lastPlayed": "2026-10-23T15:04:22.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
       "appId": 1329410,
       "name": "雀魂麻将(MahjongSoul)",
       "playtimeForever": 1403,
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-01-30T15:30:47.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1329410/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 1396,
-      "playtimeTwoWeeks": 1378,
-      "lastPlayed": "2026-10-22T15:54:49.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 219740,
