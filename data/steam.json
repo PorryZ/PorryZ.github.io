@@ -1,17 +1,17 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 3,
+  "personaState": 1,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-28T05:39:34.087Z",
-  "summary": "已同步 145 款 Steam 游戏，累计约 3732 小时，近两周约 34 小时。",
+  "lastUpdated": "2026-10-29T05:45:14.294Z",
+  "summary": "已同步 144 款 Steam 游戏，累计约 3732 小时，近两周约 33 小时。",
   "recentGames": [
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 1840,
-      "playtimeTwoWeeks": 1341,
+      "playtimeForever": 1887,
+      "playtimeTwoWeeks": 1259,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -51,7 +51,7 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2267,
-      "playtimeTwoWeeks": 36,
+      "playtimeTwoWeeks": 30,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
@@ -221,7 +221,7 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2267,
-      "playtimeTwoWeeks": 36,
+      "playtimeTwoWeeks": 30,
       "lastPlayed": "2026-10-22T13:33:23.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
@@ -242,20 +242,20 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg"
     },
     {
+      "appId": 499170,
+      "name": "Order of the Sinking Star",
+      "playtimeForever": 1887,
+      "playtimeTwoWeeks": 1259,
+      "lastPlayed": "2026-10-28T15:25:26.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
       "appId": 1568590,
       "name": "Goose Goose Duck",
       "playtimeForever": 1872,
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2023-02-08T15:50:07.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1568590/header.jpg"
-    },
-    {
-      "appId": 499170,
-      "name": "Order of the Sinking Star",
-      "playtimeForever": 1840,
-      "playtimeTwoWeeks": 1341,
-      "lastPlayed": "2026-10-27T11:02:49.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
       "appId": 646570,
@@ -1040,14 +1040,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2021-11-11T08:38:34.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/233450/header.jpg"
-    },
-    {
-      "appId": 4349200,
-      "name": "Probably Stolen Demo",
-      "playtimeForever": 9,
-      "playtimeTwoWeeks": 9,
-      "lastPlayed": "2026-10-24T13:41:44.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4349200/header.jpg"
     },
     {
       "appId": 757320,
