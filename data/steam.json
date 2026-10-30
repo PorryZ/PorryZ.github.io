@@ -1,17 +1,17 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 1,
+  "personaState": 3,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-29T05:45:14.294Z",
-  "summary": "已同步 144 款 Steam 游戏，累计约 3732 小时，近两周约 33 小时。",
+  "lastUpdated": "2026-10-30T05:45:00.300Z",
+  "summary": "已同步 145 款 Steam 游戏，累计约 3734 小时，近两周约 33 小时。",
   "recentGames": [
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
       "playtimeForever": 1887,
-      "playtimeTwoWeeks": 1259,
+      "playtimeTwoWeeks": 1258,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -22,6 +22,14 @@
       "playtimeTwoWeeks": 427,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
+    },
+    {
+      "appId": 4348910,
+      "name": "Probably Stolen",
+      "playtimeForever": 86,
+      "playtimeTwoWeeks": 86,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 2161700,
@@ -38,14 +46,6 @@
       "playtimeTwoWeeks": 67,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
-    },
-    {
-      "appId": 1687950,
-      "name": "Persona 5 Royal",
-      "playtimeForever": 8604,
-      "playtimeTwoWeeks": 55,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg"
     },
     {
       "appId": 2185060,
@@ -78,14 +78,6 @@
       "playtimeTwoWeeks": 9,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4349200/header.jpg"
-    },
-    {
-      "appId": 2679460,
-      "name": "Metaphor: ReFantazio",
-      "playtimeForever": 5450,
-      "playtimeTwoWeeks": 2,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
     }
   ],
   "games": [
@@ -125,7 +117,7 @@
       "appId": 1687950,
       "name": "Persona 5 Royal",
       "playtimeForever": 8604,
-      "playtimeTwoWeeks": 55,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-10-15T16:10:53.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg"
     },
@@ -157,7 +149,7 @@
       "appId": 2679460,
       "name": "Metaphor: ReFantazio",
       "playtimeForever": 5450,
-      "playtimeTwoWeeks": 2,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-10-15T14:45:33.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
     },
@@ -245,7 +237,7 @@
       "appId": 499170,
       "name": "Order of the Sinking Star",
       "playtimeForever": 1887,
-      "playtimeTwoWeeks": 1259,
+      "playtimeTwoWeeks": 1258,
       "lastPlayed": "2026-10-28T15:25:26.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -888,6 +880,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2024-07-15T22:24:14.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1967510/header.jpg"
+    },
+    {
+      "appId": 4348910,
+      "name": "Probably Stolen",
+      "playtimeForever": 86,
+      "playtimeTwoWeeks": 86,
+      "lastPlayed": "2026-10-30T04:59:33.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 1435790,
