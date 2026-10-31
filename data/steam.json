@@ -1,17 +1,17 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 3,
+  "personaState": 4,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-30T05:45:00.300Z",
-  "summary": "已同步 145 款 Steam 游戏，累计约 3734 小时，近两周约 33 小时。",
+  "lastUpdated": "2026-10-31T05:37:38.307Z",
+  "summary": "已同步 145 款 Steam 游戏，累计约 3735 小时，近两周约 32 小时。",
   "recentGames": [
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
       "playtimeForever": 1887,
-      "playtimeTwoWeeks": 1258,
+      "playtimeTwoWeeks": 1191,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -26,8 +26,8 @@
     {
       "appId": 4348910,
       "name": "Probably Stolen",
-      "playtimeForever": 86,
-      "playtimeTwoWeeks": 86,
+      "playtimeForever": 167,
+      "playtimeTwoWeeks": 167,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
@@ -38,30 +38,6 @@
       "playtimeTwoWeeks": 76,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg"
-    },
-    {
-      "appId": 686060,
-      "name": "Mewgenics",
-      "playtimeForever": 326,
-      "playtimeTwoWeeks": 67,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
-    },
-    {
-      "appId": 2185060,
-      "name": "Two Point Museum",
-      "playtimeForever": 2267,
-      "playtimeTwoWeeks": 30,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
-    },
-    {
-      "appId": 1235140,
-      "name": "Yakuza: Like a Dragon",
-      "playtimeForever": 66,
-      "playtimeTwoWeeks": 19,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
     },
     {
       "appId": 4160210,
@@ -78,6 +54,14 @@
       "playtimeTwoWeeks": 9,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4349200/header.jpg"
+    },
+    {
+      "appId": 2185060,
+      "name": "Two Point Museum",
+      "playtimeForever": 2267,
+      "playtimeTwoWeeks": 8,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     }
   ],
   "games": [
@@ -213,7 +197,7 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2267,
-      "playtimeTwoWeeks": 30,
+      "playtimeTwoWeeks": 8,
       "lastPlayed": "2026-10-22T13:33:23.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
@@ -237,7 +221,7 @@
       "appId": 499170,
       "name": "Order of the Sinking Star",
       "playtimeForever": 1887,
-      "playtimeTwoWeeks": 1258,
+      "playtimeTwoWeeks": 1191,
       "lastPlayed": "2026-10-28T15:25:26.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -621,7 +605,7 @@
       "appId": 686060,
       "name": "Mewgenics",
       "playtimeForever": 326,
-      "playtimeTwoWeeks": 67,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-10-16T09:40:30.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/header.jpg"
     },
@@ -744,6 +728,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-02-10T11:35:47.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1649080/header.jpg"
+    },
+    {
+      "appId": 4348910,
+      "name": "Probably Stolen",
+      "playtimeForever": 167,
+      "playtimeTwoWeeks": 167,
+      "lastPlayed": "2026-10-30T16:31:38.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 38150,
@@ -882,14 +874,6 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1967510/header.jpg"
     },
     {
-      "appId": 4348910,
-      "name": "Probably Stolen",
-      "playtimeForever": 86,
-      "playtimeTwoWeeks": 86,
-      "lastPlayed": "2026-10-30T04:59:33.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
-    },
-    {
       "appId": 1435790,
       "name": "Escape Simulator",
       "playtimeForever": 80,
@@ -917,7 +901,7 @@
       "appId": 1235140,
       "name": "Yakuza: Like a Dragon",
       "playtimeForever": 66,
-      "playtimeTwoWeeks": 19,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-10-16T15:04:38.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
     },
