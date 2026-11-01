@@ -1,19 +1,27 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 4,
+  "personaState": 1,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-10-31T05:37:38.307Z",
-  "summary": "已同步 145 款 Steam 游戏，累计约 3735 小时，近两周约 32 小时。",
+  "lastUpdated": "2026-11-01T05:59:21.732Z",
+  "summary": "已同步 145 款 Steam 游戏，累计约 3745 小时，近两周约 38 小时。",
   "recentGames": [
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
       "playtimeForever": 1887,
-      "playtimeTwoWeeks": 1191,
+      "playtimeTwoWeeks": 989,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
+    },
+    {
+      "appId": 4348910,
+      "name": "Probably Stolen",
+      "playtimeForever": 758,
+      "playtimeTwoWeeks": 758,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 1617400,
@@ -22,14 +30,6 @@
       "playtimeTwoWeeks": 427,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
-    },
-    {
-      "appId": 4348910,
-      "name": "Probably Stolen",
-      "playtimeForever": 167,
-      "playtimeTwoWeeks": 167,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 2161700,
@@ -221,7 +221,7 @@
       "appId": 499170,
       "name": "Order of the Sinking Star",
       "playtimeForever": 1887,
-      "playtimeTwoWeeks": 1191,
+      "playtimeTwoWeeks": 989,
       "lastPlayed": "2026-10-28T15:25:26.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -440,6 +440,14 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2021-06-30T11:41:52.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg"
+    },
+    {
+      "appId": 4348910,
+      "name": "Probably Stolen",
+      "playtimeForever": 758,
+      "playtimeTwoWeeks": 758,
+      "lastPlayed": "2026-11-01T05:54:35.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 1046030,
@@ -728,14 +736,6 @@
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-02-10T11:35:47.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1649080/header.jpg"
-    },
-    {
-      "appId": 4348910,
-      "name": "Probably Stolen",
-      "playtimeForever": 167,
-      "playtimeTwoWeeks": 167,
-      "lastPlayed": "2026-10-30T16:31:38.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 38150,
