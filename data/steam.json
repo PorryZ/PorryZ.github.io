@@ -1,17 +1,17 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 4,
+  "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-11-03T06:44:44.908Z",
-  "summary": "已同步 145 款 Steam 游戏，累计约 3755 小时，近两周约 44 小时。",
+  "lastUpdated": "2026-11-04T06:17:07.104Z",
+  "summary": "已同步 145 款 Steam 游戏，累计约 3756 小时，近两周约 43 小时。",
   "recentGames": [
     {
       "appId": 4348910,
       "name": "Probably Stolen",
-      "playtimeForever": 1386,
-      "playtimeTwoWeeks": 1386,
+      "playtimeForever": 1425,
+      "playtimeTwoWeeks": 1425,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
@@ -19,7 +19,7 @@
       "appId": 499170,
       "name": "Order of the Sinking Star",
       "playtimeForever": 1887,
-      "playtimeTwoWeeks": 748,
+      "playtimeTwoWeeks": 707,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -30,14 +30,6 @@
       "playtimeTwoWeeks": 427,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
-    },
-    {
-      "appId": 2161700,
-      "name": "Persona 3 Reload",
-      "playtimeForever": 1910,
-      "playtimeTwoWeeks": 76,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg"
     },
     {
       "appId": 4160210,
@@ -62,6 +54,14 @@
       "playtimeTwoWeeks": 8,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
+    },
+    {
+      "appId": 2161700,
+      "name": "Persona 3 Reload",
+      "playtimeForever": 1910,
+      "playtimeTwoWeeks": 1,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg"
     }
   ],
   "games": [
@@ -213,7 +213,7 @@
       "appId": 2161700,
       "name": "Persona 3 Reload",
       "playtimeForever": 1910,
-      "playtimeTwoWeeks": 76,
+      "playtimeTwoWeeks": 1,
       "lastPlayed": "2026-10-25T12:12:10.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/header.jpg"
     },
@@ -221,7 +221,7 @@
       "appId": 499170,
       "name": "Order of the Sinking Star",
       "playtimeForever": 1887,
-      "playtimeTwoWeeks": 748,
+      "playtimeTwoWeeks": 707,
       "lastPlayed": "2026-10-28T15:25:26.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -266,20 +266,20 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
     },
     {
+      "appId": 4348910,
+      "name": "Probably Stolen",
+      "playtimeForever": 1425,
+      "playtimeTwoWeeks": 1425,
+      "lastPlayed": "2026-11-03T12:01:09.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
+    },
+    {
       "appId": 1329410,
       "name": "雀魂麻将(MahjongSoul)",
       "playtimeForever": 1403,
       "playtimeTwoWeeks": 0,
       "lastPlayed": "2025-01-30T15:30:47.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1329410/header.jpg"
-    },
-    {
-      "appId": 4348910,
-      "name": "Probably Stolen",
-      "playtimeForever": 1386,
-      "playtimeTwoWeeks": 1386,
-      "lastPlayed": "2026-11-02T16:23:18.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 219740,
