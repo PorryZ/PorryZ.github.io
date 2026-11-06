@@ -1,11 +1,11 @@
 {
   "steamId": "76561198359843621",
   "personaName": "PorryZ",
-  "personaState": 0,
+  "personaState": 1,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-11-05T06:42:42.910Z",
-  "summary": "已同步 145 款 Steam 游戏，累计约 3762 小时，近两周约 48 小时。",
+  "lastUpdated": "2026-11-06T06:40:31.598Z",
+  "summary": "已同步 145 款 Steam 游戏，累计约 3770 小时，近两周约 53 小时。",
   "recentGames": [
     {
       "appId": 4348910,
@@ -18,8 +18,8 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 2052,
-      "playtimeTwoWeeks": 793,
+      "playtimeForever": 2090,
+      "playtimeTwoWeeks": 693,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -30,6 +30,14 @@
       "playtimeTwoWeeks": 427,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
+    },
+    {
+      "appId": 431960,
+      "name": "Wallpaper Engine",
+      "playtimeForever": 3451,
+      "playtimeTwoWeeks": 394,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
     },
     {
       "appId": 4160210,
@@ -46,14 +54,6 @@
       "playtimeTwoWeeks": 9,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4349200/header.jpg"
-    },
-    {
-      "appId": 2185060,
-      "name": "Two Point Museum",
-      "playtimeForever": 2267,
-      "playtimeTwoWeeks": 8,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
       "appId": 787480,
@@ -170,6 +170,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1621690/header.jpg"
     },
     {
+      "appId": 431960,
+      "name": "Wallpaper Engine",
+      "playtimeForever": 3451,
+      "playtimeTwoWeeks": 394,
+      "lastPlayed": "2026-11-05T16:49:06.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
+    },
+    {
       "appId": 1942280,
       "name": "Brotato",
       "playtimeForever": 3417,
@@ -186,14 +194,6 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2868840/header.jpg"
     },
     {
-      "appId": 431960,
-      "name": "Wallpaper Engine",
-      "playtimeForever": 3056,
-      "playtimeTwoWeeks": 0,
-      "lastPlayed": "2026-10-09T11:29:14.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
-    },
-    {
       "appId": 588650,
       "name": "Dead Cells",
       "playtimeForever": 2605,
@@ -205,16 +205,16 @@
       "appId": 2185060,
       "name": "Two Point Museum",
       "playtimeForever": 2267,
-      "playtimeTwoWeeks": 8,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-10-22T13:33:23.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
     },
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 2052,
-      "playtimeTwoWeeks": 793,
-      "lastPlayed": "2026-11-04T16:30:28.000Z",
+      "playtimeForever": 2090,
+      "playtimeTwoWeeks": 693,
+      "lastPlayed": "2026-11-06T04:37:09.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
