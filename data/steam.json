@@ -4,22 +4,22 @@
   "personaState": 1,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-11-06T06:40:31.598Z",
-  "summary": "已同步 145 款 Steam 游戏，累计约 3770 小时，近两周约 53 小时。",
+  "lastUpdated": "2026-11-07T05:55:40.510Z",
+  "summary": "已同步 145 款 Steam 游戏，累计约 3774 小时，近两周约 57 小时。",
   "recentGames": [
     {
       "appId": 4348910,
       "name": "Probably Stolen",
-      "playtimeForever": 1635,
-      "playtimeTwoWeeks": 1635,
+      "playtimeForever": 1767,
+      "playtimeTwoWeeks": 1767,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 2090,
-      "playtimeTwoWeeks": 693,
+      "playtimeForever": 2201,
+      "playtimeTwoWeeks": 762,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -38,6 +38,14 @@
       "playtimeTwoWeeks": 394,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
+    },
+    {
+      "appId": 4115450,
+      "name": "Phantom Blade Zero",
+      "playtimeForever": 49,
+      "playtimeTwoWeeks": 49,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4115450/header.jpg"
     },
     {
       "appId": 4160210,
@@ -174,7 +182,7 @@
       "name": "Wallpaper Engine",
       "playtimeForever": 3451,
       "playtimeTwoWeeks": 394,
-      "lastPlayed": "2026-11-05T16:49:06.000Z",
+      "lastPlayed": "2026-11-06T14:23:17.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
     },
     {
@@ -212,9 +220,9 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 2090,
-      "playtimeTwoWeeks": 693,
-      "lastPlayed": "2026-11-06T04:37:09.000Z",
+      "playtimeForever": 2201,
+      "playtimeTwoWeeks": 762,
+      "lastPlayed": "2026-11-06T16:07:49.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
@@ -258,6 +266,14 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg"
     },
     {
+      "appId": 4348910,
+      "name": "Probably Stolen",
+      "playtimeForever": 1767,
+      "playtimeTwoWeeks": 1767,
+      "lastPlayed": "2026-11-06T14:35:06.000Z",
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
+    },
+    {
       "appId": 2427700,
       "name": "Backpack Battles",
       "playtimeForever": 1758,
@@ -272,14 +288,6 @@
       "playtimeTwoWeeks": 12,
       "lastPlayed": "2026-10-24T13:24:26.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
-    },
-    {
-      "appId": 4348910,
-      "name": "Probably Stolen",
-      "playtimeForever": 1635,
-      "playtimeTwoWeeks": 1635,
-      "lastPlayed": "2026-11-04T12:13:34.000Z",
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4348910/header.jpg"
     },
     {
       "appId": 1329410,
