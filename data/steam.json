@@ -4,8 +4,8 @@
   "personaState": 1,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-11-07T05:55:40.510Z",
-  "summary": "已同步 145 款 Steam 游戏，累计约 3774 小时，近两周约 57 小时。",
+  "lastUpdated": "2026-11-08T05:57:51.412Z",
+  "summary": "已同步 145 款 Steam 游戏，累计约 3774 小时，近两周约 53 小时。",
   "recentGames": [
     {
       "appId": 4348910,
@@ -18,18 +18,10 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 2201,
-      "playtimeTwoWeeks": 762,
+      "playtimeForever": 2241,
+      "playtimeTwoWeeks": 698,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
-    },
-    {
-      "appId": 1617400,
-      "name": "The Bazaar",
-      "playtimeForever": 7046,
-      "playtimeTwoWeeks": 427,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
     },
     {
       "appId": 431960,
@@ -40,28 +32,20 @@
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg"
     },
     {
+      "appId": 1617400,
+      "name": "The Bazaar",
+      "playtimeForever": 7046,
+      "playtimeTwoWeeks": 248,
+      "lastPlayed": null,
+      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
+    },
+    {
       "appId": 4115450,
       "name": "Phantom Blade Zero",
       "playtimeForever": 49,
       "playtimeTwoWeeks": 49,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4115450/header.jpg"
-    },
-    {
-      "appId": 4160210,
-      "name": "The Artisan of Glimmith",
-      "playtimeForever": 1689,
-      "playtimeTwoWeeks": 12,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
-    },
-    {
-      "appId": 4349200,
-      "name": "Probably Stolen Demo",
-      "playtimeForever": 9,
-      "playtimeTwoWeeks": 9,
-      "lastPlayed": null,
-      "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4349200/header.jpg"
     },
     {
       "appId": 787480,
@@ -133,7 +117,7 @@
       "appId": 1617400,
       "name": "The Bazaar",
       "playtimeForever": 7046,
-      "playtimeTwoWeeks": 427,
+      "playtimeTwoWeeks": 248,
       "lastPlayed": "2026-10-26T13:27:48.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
     },
@@ -220,9 +204,9 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 2201,
-      "playtimeTwoWeeks": 762,
-      "lastPlayed": "2026-11-06T16:07:49.000Z",
+      "playtimeForever": 2241,
+      "playtimeTwoWeeks": 698,
+      "lastPlayed": "2026-11-08T05:41:59.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
@@ -285,7 +269,7 @@
       "appId": 4160210,
       "name": "The Artisan of Glimmith",
       "playtimeForever": 1689,
-      "playtimeTwoWeeks": 12,
+      "playtimeTwoWeeks": 0,
       "lastPlayed": "2026-10-24T13:24:26.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
     },
