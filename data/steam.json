@@ -4,8 +4,8 @@
   "personaState": 0,
   "profileUrl": "https://steamcommunity.com/id/steveporridge/",
   "avatar": "https://avatars.steamstatic.com/acacec54c2cb39d998efbca9d09aa8295300b935_full.jpg",
-  "lastUpdated": "2026-11-09T06:22:21.293Z",
-  "summary": "已同步 145 款 Steam 游戏，累计约 3778 小时，近两周约 51 小时。",
+  "lastUpdated": "2026-11-10T07:14:09.560Z",
+  "summary": "已同步 145 款 Steam 游戏，累计约 3781 小时，近两周约 51 小时。",
   "recentGames": [
     {
       "appId": 4348910,
@@ -18,8 +18,8 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 2469,
-      "playtimeTwoWeeks": 770,
+      "playtimeForever": 2581,
+      "playtimeTwoWeeks": 782,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
@@ -34,8 +34,8 @@
     {
       "appId": 1617400,
       "name": "The Bazaar",
-      "playtimeForever": 7046,
-      "playtimeTwoWeeks": 102,
+      "playtimeForever": 7123,
+      "playtimeTwoWeeks": 76,
       "lastPlayed": null,
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
     },
@@ -116,9 +116,9 @@
     {
       "appId": 1617400,
       "name": "The Bazaar",
-      "playtimeForever": 7046,
-      "playtimeTwoWeeks": 102,
-      "lastPlayed": "2026-10-26T13:27:48.000Z",
+      "playtimeForever": 7123,
+      "playtimeTwoWeeks": 76,
+      "lastPlayed": "2026-11-09T14:25:03.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617400/header.jpg"
     },
     {
@@ -196,9 +196,9 @@
     {
       "appId": 499170,
       "name": "Order of the Sinking Star",
-      "playtimeForever": 2469,
-      "playtimeTwoWeeks": 770,
-      "lastPlayed": "2026-11-08T12:52:40.000Z",
+      "playtimeForever": 2581,
+      "playtimeTwoWeeks": 782,
+      "lastPlayed": "2026-11-10T04:25:43.000Z",
       "headerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg"
     },
     {
